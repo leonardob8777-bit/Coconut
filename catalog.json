@@ -1,6 +1,38 @@
 {
   "themes": [
     {
+      "id": "es-casete",
+      "name": "Mixtape",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-casete.tendies",
+      "sha256": "6e9eae59eba26f74e84f8e48fc93a40b7d089f38d797a5a3b2b6901108b939f3",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-casete-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-casete-artwork.jpg"
+    },
+    {
+      "id": "es-balon",
+      "name": "Matchball",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-balon.tendies",
+      "sha256": "d46b6d3948ccdc71b1b43643c11f3751f0b97575e070e1e9b8fd839d2d3841f9",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-balon-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-balon-artwork.jpg"
+    },
+    {
+      "id": "es-rollo",
+      "name": "Film Reel",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-rollo.tendies",
+      "sha256": "074fcb3339cb68ddbc890b89f1473b74cd631d049efb7097afb74c0a340a1afc",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-rollo-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-rollo-artwork.jpg"
+    },
+    {
+      "id": "es-reloj",
+      "name": "Iced Watch",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-reloj.tendies",
+      "sha256": "3cb66b71070639cc8f69e2700bb485844e7a7e4e66830d39446ba23e3a5f1c81",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-reloj-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-reloj-artwork.jpg"
+    },
+    {
       "id": "es-vinilo",
       "name": "Vinyl",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-vinilo.tendies",
