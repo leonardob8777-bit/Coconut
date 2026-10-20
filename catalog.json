@@ -1,6 +1,30 @@
 {
   "themes": [
     {
+      "id": "cu-arbolito",
+      "name": "Little Tree",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-arbolito.tendies",
+      "sha256": "6a54a492592e467178bd29ba8079192b31ea83b0fa0e1bb395ac0d7e72edcda9",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-arbolito-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-arbolito-artwork.jpg"
+    },
+    {
+      "id": "cu-open",
+      "name": "Open 24/7",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-open.tendies",
+      "sha256": "e2695c56e038755d9b94bd23ccd0115d34c7680111feac2639e74e234b30f753",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-open-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-open-artwork.jpg"
+    },
+    {
+      "id": "cu-bombilla",
+      "name": "Interrogation",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-bombilla.tendies",
+      "sha256": "9a377dcdab59f89b1a02f6d37d040ef50f829024f7b2452b36d1cf033325831f",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-bombilla-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-bombilla-artwork.jpg"
+    },
+    {
       "id": "cu-grillz",
       "name": "Grillz",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-grillz.tendies",
