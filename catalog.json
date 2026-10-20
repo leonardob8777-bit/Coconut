@@ -1,6 +1,38 @@
 {
   "themes": [
     {
+      "id": "pr-lazer",
+      "name": "Hellcat",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-lazer.tendies",
+      "sha256": "c2829b80541d42bb9396df7144173b2c83253281d73ca8599905d06d3b83e269",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-lazer-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-lazer-artwork.jpg"
+    },
+    {
+      "id": "pr-kobe",
+      "name": "Mamba Mentality",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-kobe.tendies",
+      "sha256": "fc627f0554c2e669ba2629ae199b2c21a9c9300bae7ffe11de4ad912c27a110d",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-kobe-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-kobe-artwork.jpg"
+    },
+    {
+      "id": "pr-juice",
+      "name": "999",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-juice.tendies",
+      "sha256": "fa78404b3799941de8fa4beafbbfd644f594b3d78ab0935f6d512bbe680cf10d",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-juice-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-juice-artwork.jpg"
+    },
+    {
+      "id": "pr-batman",
+      "name": "Vengeance",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-batman.tendies",
+      "sha256": "a4fc8ad09ec39428b4a69c5dfadd0cd5289876a6b5432d4e005d31ab313c8cce",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-batman-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-batman-artwork.jpg"
+    },
+    {
       "id": "pr-cabra",
       "name": "The GOAT",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-cabra.tendies",
