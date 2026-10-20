@@ -1,6 +1,46 @@
 {
   "themes": [
     {
+      "id": "es-sharingan",
+      "name": "Sharingan",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-sharingan.tendies",
+      "sha256": "e760ee34070b92f77968984f250e3fa0dcba88a251030f66be6c1f91a8757d1f",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-sharingan-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-sharingan-artwork.jpg"
+    },
+    {
+      "id": "es-santoryu",
+      "name": "Three Swords",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-santoryu.tendies",
+      "sha256": "22ca7c8451f8dda80580dad1c4adf13aba49972987166379a5b45cd7a15da807",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-santoryu-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-santoryu-artwork.jpg"
+    },
+    {
+      "id": "es-dominio",
+      "name": "Malevolent Shrine",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-dominio.tendies",
+      "sha256": "8c12c70017ae5d99e7688a67b6313d7166d4f9a142944f3b4dfa6cd8bb2b9f29",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-dominio-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-dominio-artwork.jpg"
+    },
+    {
+      "id": "es-llama",
+      "name": "Flame Hashira",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-llama.tendies",
+      "sha256": "536902d5ac7214b994f63945646426e69351027a7f54f224800762d3e4274f06",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-llama-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-llama-artwork.jpg"
+    },
+    {
+      "id": "es-chainsaw",
+      "name": "Chainsaw",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-chainsaw.tendies",
+      "sha256": "1ccc4ef57f19411417b80ab8efb6ac2d0a67e410de7ae3281052e18d86f1c09b",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-chainsaw-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-chainsaw-artwork.jpg"
+    },
+    {
       "id": "es-corona",
       "name": "Jesus Is King",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-corona.tendies",
