@@ -1,6 +1,30 @@
 {
   "themes": [
     {
+      "id": "es-planeta",
+      "name": "Think, Mark!",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-planeta.tendies",
+      "sha256": "093091eba78358927b7930f7a9f4563b24e3b1d38828e901df4e5c30b1887a21",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-planeta-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-planeta-artwork.jpg"
+    },
+    {
+      "id": "es-leche",
+      "name": "Got Milk?",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-leche.tendies",
+      "sha256": "0582e80216d9fefa7552676f4293c86da47fb879922c567dd6dc0d2c2ac9af2c",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-leche-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-leche-artwork.jpg"
+    },
+    {
+      "id": "es-bandera",
+      "name": "America's Hero",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-bandera.tendies",
+      "sha256": "5cf271d74879a055aaf0e2d6fc4289a56400669df457ced6219143556f064663",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-bandera-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-bandera-artwork.jpg"
+    },
+    {
       "id": "es-sharingan",
       "name": "Sharingan",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-sharingan.tendies",
