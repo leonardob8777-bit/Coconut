@@ -1,6 +1,30 @@
 {
   "themes": [
     {
+      "id": "cu-audio",
+      "name": "Metro Boomin",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-audio.tendies",
+      "sha256": "d417f0aaa4f4ac4b9c342de271ed39d9efa27607a246405c177d5df427710f06",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-audio-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-audio-artwork.jpg"
+    },
+    {
+      "id": "cu-dinero",
+      "name": "Gold Vault",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-dinero.tendies",
+      "sha256": "bf979b5a2cbf21093b274a6b126b80fcac3bd60f2e3611c1f8e0b72852de084e",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-dinero-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-dinero-artwork.jpg"
+    },
+    {
+      "id": "cu-jordan",
+      "name": "Laces Up",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-jordan.tendies",
+      "sha256": "80f9a3523e6ef9a26dfe2db6af899b10dd7c29045c8bc93e620dd6685651ad0a",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-jordan-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-jordan-artwork.jpg"
+    },
+    {
       "id": "cu-semaforo",
       "name": "Green Light",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-semaforo.tendies",
