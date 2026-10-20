@@ -1,6 +1,30 @@
 {
   "themes": [
     {
+      "id": "sc-aurora",
+      "name": "Aurora",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-aurora.tendies",
+      "sha256": "3784722bf88c19cc097a7fbc9754cf97f3964f6c60303b6f8ef27df5d1b42755",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-aurora-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-aurora-artwork.jpg"
+    },
+    {
+      "id": "sc-ventana",
+      "name": "Rainy Window",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-ventana.tendies",
+      "sha256": "bec40957a09747af8484f676cf15cd1ad13691c431562c1ec8c61a5b7d0777ab",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-ventana-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-ventana-artwork.jpg"
+    },
+    {
+      "id": "sc-dunas",
+      "name": "Desert Night",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-dunas.tendies",
+      "sha256": "5c8271b4009a46fdb297a2f20003a5f9c9a4d7bae2c2f8fc3e129fccee8c882c",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-dunas-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-dunas-artwork.jpg"
+    },
+    {
       "id": "es-sombras",
       "name": "Shadow Army",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-sombras.tendies",
