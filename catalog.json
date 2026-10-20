@@ -1,6 +1,62 @@
 {
   "themes": [
     {
+      "id": "es-corona",
+      "name": "Jesus Is King",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-corona.tendies",
+      "sha256": "b92dd47e89d4165cd0e3255d8bce4b0fe794954e4db35b3c5bab038ce2f1cf2d",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-corona-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-corona-artwork.jpg"
+    },
+    {
+      "id": "es-saves",
+      "name": "Jesus Saves",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-saves.tendies",
+      "sha256": "24b940f8b0678f69d7e866c0b3928739e67093a5b46a570b892872a367df9d69",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-saves-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-saves-artwork.jpg"
+    },
+    {
+      "id": "es-ascension",
+      "name": "Risen",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-ascension.tendies",
+      "sha256": "d389a6c7d9a89a6378d883aa3721f946d9a1f27840f637d3b14a6e108b47f3b9",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-ascension-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-ascension-artwork.jpg"
+    },
+    {
+      "id": "es-getsemani",
+      "name": "Gethsemane",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-getsemani.tendies",
+      "sha256": "6f7b5d01c2c683a1f238b8ded90b333bd1c8fcb383c0e436299a5a618d2c1f25",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-getsemani-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-getsemani-artwork.jpg"
+    },
+    {
+      "id": "es-vidriera",
+      "name": "Stained Glass",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-vidriera.tendies",
+      "sha256": "6e4dac13335ca2a79078e4f65e8ec7096c76931b884b42d904e5e6110b47eba2",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-vidriera-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-vidriera-artwork.jpg"
+    },
+    {
+      "id": "es-creacion",
+      "name": "Creation",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-creacion.tendies",
+      "sha256": "4a4591d12f66dd729d15af54d9e4456df2e48a5a7ae158704da531a19ca2c399",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-creacion-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-creacion-artwork.jpg"
+    },
+    {
+      "id": "es-cruz",
+      "name": "The Cross",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-cruz.tendies",
+      "sha256": "697ca6368c211ef76e86be7f7b5673b3febe1f9c2d84cc7b4744f31ff7aaa6f5",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-cruz-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-cruz-artwork.jpg"
+    },
+    {
       "id": "es-casete",
       "name": "Mixtape",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-casete.tendies",
