@@ -1,6 +1,30 @@
 {
   "themes": [
     {
+      "id": "es-vinilo",
+      "name": "Vinyl",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-vinilo.tendies",
+      "sha256": "b35060d56e5f5abb01cd6971dc6f9de054273437e53aa49e6e116db32e3fed94",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-vinilo-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-vinilo-artwork.jpg"
+    },
+    {
+      "id": "es-cine",
+      "name": "Now Showing",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-cine.tendies",
+      "sha256": "46dd98951851c0861dc5234af9d4036f0286d4299789a5c84f3591dec69a88e8",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-cine-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-cine-artwork.jpg"
+    },
+    {
+      "id": "es-tunel",
+      "name": "Tunnel",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-tunel.tendies",
+      "sha256": "d16621199b6086e161b1c3aed24fb65af08ce8adca618dd9920310b2b54ed16d",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-tunel-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-tunel-artwork.jpg"
+    },
+    {
       "id": "es-popart",
       "name": "Pop Art",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-popart.tendies",
