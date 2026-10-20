@@ -1,6 +1,38 @@
 {
   "themes": [
     {
+      "id": "is-dunk",
+      "name": "Slam Dunk",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-dunk.tendies",
+      "sha256": "e1bb94083f17629a3375e9a87ff5a89e9ed6fca66ab86c4b401e86571f636edd",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-dunk-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-dunk-artwork.jpg"
+    },
+    {
+      "id": "is-police",
+      "name": "No Smoke",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-police.tendies",
+      "sha256": "d90dd3cf09ed4d44a2bb447a58ef4e099e208fafcc582839450769f8c47dcb07",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-police-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-police-artwork.jpg"
+    },
+    {
+      "id": "is-chain",
+      "name": "Iced Out",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-chain.tendies",
+      "sha256": "11eef34371f7506cbaf9a920ec2ab2422bb89ec1ec6fbcc7f90d13ed621e18f7",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-chain-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-chain-artwork.jpg"
+    },
+    {
+      "id": "is-cash",
+      "name": "Cash Out",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-cash.tendies",
+      "sha256": "6fda170db2c88c4b59b4ca609a48571a49d08cbc326077bede14cdc9a847795a",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-cash-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-cash-artwork.jpg"
+    },
+    {
       "id": "pr-cr7",
       "name": "SIUUU",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-cr7.tendies",
