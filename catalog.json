@@ -1,6 +1,30 @@
 {
   "themes": [
     {
+      "id": "cu-grillz",
+      "name": "Grillz",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-grillz.tendies",
+      "sha256": "9e848469a45ef2512fb3e49f49afa71184bdfda4c109d5f19341a032e4d40766",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-grillz-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-grillz-artwork.jpg"
+    },
+    {
+      "id": "cu-champan",
+      "name": "Private Jet",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-champan.tendies",
+      "sha256": "4359ea8f9d1a6fa48fec6e5b94fa1ac336e3997b2a1ec718ba9bc2958cff308c",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-champan-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-champan-artwork.jpg"
+    },
+    {
+      "id": "cu-rolex",
+      "name": "Daytona",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-rolex.tendies",
+      "sha256": "32515a20bc727286691b0c0ace791f9ad468a5fb505e9b2371a0151cb6d4b4ed",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-rolex-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-rolex-artwork.jpg"
+    },
+    {
       "id": "cu-audio",
       "name": "Metro Boomin",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-audio.tendies",
