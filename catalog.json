@@ -1,6 +1,38 @@
 {
   "themes": [
     {
+      "id": "pr-cabra",
+      "name": "The GOAT",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-cabra.tendies",
+      "sha256": "f8a9ed9620d8c8ee1f9ad36f682d99bb2e8635e6b42c97cb4942a65efee11532",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-cabra-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-cabra-artwork.jpg"
+    },
+    {
+      "id": "pr-toro",
+      "name": "The Last Dance",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-toro.tendies",
+      "sha256": "05f3cd97f76b91f25019ff47b64c3ff61abbe67e22c548498d204c3e33d28e12",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-toro-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-toro-artwork.jpg"
+    },
+    {
+      "id": "pr-lobo",
+      "name": "Wolves",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-lobo.tendies",
+      "sha256": "7da44670bb9b76b2d670a691be0c96d691bd132c8fcf95aa2d91da0477d9c73b",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-lobo-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-lobo-artwork.jpg"
+    },
+    {
+      "id": "pr-drake",
+      "name": "Take Care",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-drake.tendies",
+      "sha256": "492e32d19c9d130705975fc80c284ded3247b54136d161a9d4f83e3f35e3db79",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-drake-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-drake-artwork.jpg"
+    },
+    {
       "id": "esp-nba",
       "name": "Never Broke Again",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/esp-nba.tendies",
