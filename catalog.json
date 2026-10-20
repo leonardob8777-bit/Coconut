@@ -1,6 +1,38 @@
 {
   "themes": [
     {
+      "id": "pr-cr7",
+      "name": "SIUUU",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-cr7.tendies",
+      "sha256": "5229103cd423af1aa8c9b1fcbca00c99e814257c34ad4a74ced11cca211f4f3e",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-cr7-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-cr7-artwork.jpg"
+    },
+    {
+      "id": "pr-uzi",
+      "name": "Pink Tape",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-uzi.tendies",
+      "sha256": "00ed2fc96e80af41d6fadbc73630b7222081ae4aa8f3cc08d0c4d81feb11967e",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-uzi-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-uzi-artwork.jpg"
+    },
+    {
+      "id": "pr-lebron",
+      "name": "King James",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-lebron.tendies",
+      "sha256": "6a407dd8cd5b9e8a16986cb25d56999259e098f85f4768ba1d819abbfba15564",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-lebron-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-lebron-artwork.jpg"
+    },
+    {
+      "id": "pr-deadpool",
+      "name": "Besties",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-deadpool.tendies",
+      "sha256": "12fe66b7f7d6079e08d65bbc80e675b53982477c66a7f1b91b53b99945cd7306",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-deadpool-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-deadpool-artwork.jpg"
+    },
+    {
       "id": "pr-lazer",
       "name": "Hellcat",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-lazer.tendies",
