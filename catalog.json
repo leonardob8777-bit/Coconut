@@ -1,6 +1,38 @@
 {
   "themes": [
     {
+      "id": "es-escorpion",
+      "name": "Literally Me",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-escorpion.tendies",
+      "sha256": "7bf23aaebf3b5e3a18046c89be79a7609f577d6a9c92348bcbfeafb0afa0e167",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-escorpion-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-escorpion-artwork.jpg"
+    },
+    {
+      "id": "es-cuchilla",
+      "name": "Peaky Blinders",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-cuchilla.tendies",
+      "sha256": "212ab2e9d679ad9c8356e501ff78da2cde3c83f7638d1a5ffc4edbd8a7524f9a",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-cuchilla-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-cuchilla-artwork.jpg"
+    },
+    {
+      "id": "es-tarjeta",
+      "name": "Business Card",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-tarjeta.tendies",
+      "sha256": "bad3e260a4198131514790084fee32118fa9e392373d64b7bb9460f6f5db02fa",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-tarjeta-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-tarjeta-artwork.jpg"
+    },
+    {
+      "id": "es-joker",
+      "name": "Joker Card",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-joker.tendies",
+      "sha256": "662e7ca63d9a437adbb36098bfe8a5f42ae993bc001550d8a48dacc1c3a6efa9",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-joker-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-joker-artwork.jpg"
+    },
+    {
       "id": "es-planeta",
       "name": "Think, Mark!",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-planeta.tendies",
