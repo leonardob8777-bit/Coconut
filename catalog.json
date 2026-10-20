@@ -1,6 +1,30 @@
 {
   "themes": [
     {
+      "id": "es-popart",
+      "name": "Pop Art",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-popart.tendies",
+      "sha256": "6350d2a156d24c81d36102ac3c8de28917060760c4332fd1b037bd2f9b533790",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-popart-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-popart-artwork.jpg"
+    },
+    {
+      "id": "es-periodico",
+      "name": "Front Page",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-periodico.tendies",
+      "sha256": "53869dcc05b0726375f8f570e1cab7ee76bd90a4764dd76ba5569e9480bad7f1",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-periodico-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-periodico-artwork.jpg"
+    },
+    {
+      "id": "es-alfombra",
+      "name": "Red Carpet",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-alfombra.tendies",
+      "sha256": "464e0a4db9f5629fb219380b9de04012c5d080cc95c489e0b2061bdfd49a1c0d",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-alfombra-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-alfombra-artwork.jpg"
+    },
+    {
       "id": "sc-aurora",
       "name": "Aurora",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-aurora.tendies",
