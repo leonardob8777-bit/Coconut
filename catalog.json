@@ -1,6 +1,30 @@
 {
   "themes": [
     {
+      "id": "es-sombras",
+      "name": "Shadow Army",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-sombras.tendies",
+      "sha256": "549f1d504e3a4ddec439752b23ff114d096b81cc5c88f00d81a09236ce6f9f93",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-sombras-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-sombras-artwork.jpg"
+    },
+    {
+      "id": "es-streetball",
+      "name": "Streetball",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-streetball.tendies",
+      "sha256": "0ff66d5b58edb07f1ce91d540f9d92a06c06b3b27cd17f2de2a21c08cb4a4600",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-streetball-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-streetball-artwork.jpg"
+    },
+    {
+      "id": "es-gamer",
+      "name": "Gamer",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-gamer.tendies",
+      "sha256": "bf67e0cd90bd84ab5bead316f0ddcd03bf19077f6462dfb337055f4930520066",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-gamer-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-gamer-artwork.jpg"
+    },
+    {
       "id": "es-estudio",
       "name": "Studio",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-estudio.tendies",
