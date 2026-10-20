@@ -1,6 +1,70 @@
 {
   "themes": [
     {
+      "id": "es-estudio",
+      "name": "Studio",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-estudio.tendies",
+      "sha256": "38dde646f5b17e2a1b45e697e4391738be41ed71bdf4cdc6489955a8c7138db5",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-estudio-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-estudio-artwork.jpg"
+    },
+    {
+      "id": "es-arena",
+      "name": "Arena",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-arena.tendies",
+      "sha256": "d3a0ac8b37fa6fa17113c97d2bf5f4413006876619b846b261e313c15a26dfea",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-arena-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-arena-artwork.jpg"
+    },
+    {
+      "id": "es-hielo",
+      "name": "Ice",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-hielo.tendies",
+      "sha256": "57a086a438fbbece8558b67287af5ea5dac5e3bacc132e7c9139c7658b2acf46",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-hielo-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-hielo-artwork.jpg"
+    },
+    {
+      "id": "es-vamp",
+      "name": "Vamp",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-vamp.tendies",
+      "sha256": "b73f989680a62a19bc881aa623c40a048400f22a9eba44e939057fc67b670750",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-vamp-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-vamp-artwork.jpg"
+    },
+    {
+      "id": "es-stream",
+      "name": "Live",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-stream.tendies",
+      "sha256": "b949e60bed10316dfb63f0db2e4bef730c3ccf1a93f1ca4c8ca09c822f617d30",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-stream-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-stream-artwork.jpg"
+    },
+    {
+      "id": "es-jdm",
+      "name": "Tokyo Drift",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-jdm.tendies",
+      "sha256": "6c532721879770f0f34e86bf39f18cb01c8b05355a6a70a2ec4c1e91eaa35d7a",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-jdm-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-jdm-artwork.jpg"
+    },
+    {
+      "id": "es-drop",
+      "name": "Drop",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-drop.tendies",
+      "sha256": "82f2df77a11b0c433568b92075f252ce8217ebeccbe593d65b13afecde7ada2c",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-drop-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-drop-artwork.jpg"
+    },
+    {
+      "id": "es-gear5",
+      "name": "Gear 5",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-gear5.tendies",
+      "sha256": "03c84a3a2be8ad324dbcd033576a32f7872722681d1b94b80466b6ff7b81d2a2",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-gear5-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-gear5-artwork.jpg"
+    },
+    {
       "id": "cartel-cr7",
       "name": "Cristiano",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cartel-cr7.tendies",
