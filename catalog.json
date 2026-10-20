@@ -1,6 +1,38 @@
 {
   "themes": [
     {
+      "id": "cu-semaforo",
+      "name": "Green Light",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-semaforo.tendies",
+      "sha256": "7c53607084566267c4591bd8b93d4ad32b47d99b906b4e4e5d161d47609d4918",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-semaforo-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-semaforo-artwork.jpg"
+    },
+    {
+      "id": "cu-disco",
+      "name": "Munch",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-disco.tendies",
+      "sha256": "5ad9e3fa2be3a6943e655727579075083b5393ba07868908bb74d16a0edf36e2",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-disco-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-disco-artwork.jpg"
+    },
+    {
+      "id": "cu-mic",
+      "name": "Drip Too Hard",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-mic.tendies",
+      "sha256": "50003c19e87cb7fa264770b5726b600c167268e00fff849d30020a1bbb0c9baa",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-mic-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-mic-artwork.jpg"
+    },
+    {
+      "id": "cu-box",
+      "name": "Iron Mike",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-box.tendies",
+      "sha256": "2cea046f47140f971132cce76f1a836a034c3fcee1d93d5d793f8578d98da992",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-box-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-box-artwork.jpg"
+    },
+    {
       "id": "is-dunk",
       "name": "Slam Dunk",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-dunk.tendies",
