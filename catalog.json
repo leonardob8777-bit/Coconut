@@ -1,6 +1,38 @@
 {
   "themes": [
     {
+      "id": "ob-champion",
+      "name": "Champion",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-champion.tendies",
+      "sha256": "2a3170fb351b7563bfa91073b3c721dba98a13628a1e7b11c77d07d13ddcdfb6",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-champion-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-champion-artwork.jpg"
+    },
+    {
+      "id": "ob-roses",
+      "name": "Red Roses",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-roses.tendies",
+      "sha256": "11d61f4ca08d8dac678a1d74c31692c1ffdf8505cadda43086eb0ddd59cc625d",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-roses-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-roses-artwork.jpg"
+    },
+    {
+      "id": "ob-gameon",
+      "name": "Game On",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-gameon.tendies",
+      "sha256": "dd625e37550738bd8b3e21f02f5b2e0fcf42581743ecd683d5f67c6cd93d854d",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-gameon-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-gameon-artwork.jpg"
+    },
+    {
+      "id": "ob-butterfly",
+      "name": "Butterfly",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-butterfly.tendies",
+      "sha256": "c76d6afff91bb90c5c4b2fe1ade4a964931c577be795522892f53ba52d9db872",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-butterfly-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-butterfly-artwork.jpg"
+    },
+    {
       "id": "ob-king",
       "name": "King",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-king.tendies",
