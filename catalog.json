@@ -1,6 +1,30 @@
 {
   "themes": [
     {
+      "id": "ob-money",
+      "name": "Vault",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-money.tendies",
+      "sha256": "01a73f0e0561bcc7cd1542ae3c21461bb9e3076c5b6a0fed17867cc950c4edf6",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-money-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-money-artwork.jpg"
+    },
+    {
+      "id": "ob-gold",
+      "name": "Gold Rush",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-gold.tendies",
+      "sha256": "7d9d4edfbf6b8931c17550a71fcf8cf80191266c12766a87eb576ad22c9c545f",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-gold-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-gold-artwork.jpg"
+    },
+    {
+      "id": "ob-deagle",
+      "name": "Golden Eagle",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-deagle.tendies",
+      "sha256": "590584bd4fc0a4ccd3d5462cbf5a749930dee05d2b23c8eb74c26218e7fe088a",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-deagle-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-deagle-artwork.jpg"
+    },
+    {
       "id": "ep-diamond",
       "name": "Ice Cold",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ep-diamond.tendies",
