@@ -1,6 +1,30 @@
 {
   "themes": [
     {
+      "id": "ac-patada",
+      "name": "Golazo",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ac-patada.tendies",
+      "sha256": "c8a9a1ab1709683ff983bff04526f298c8a45aab1067ed566db8ffcbe209126f",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ac-patada-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ac-patada-artwork.jpg"
+    },
+    {
+      "id": "ac-champan",
+      "name": "Pop Off",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ac-champan.tendies",
+      "sha256": "83a6be2ce6537b33a3546c710995c0cc598098bbcefcd9d42dba6db74596bf6e",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ac-champan-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ac-champan-artwork.jpg"
+    },
+    {
+      "id": "ac-dados",
+      "name": "High Roller",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ac-dados.tendies",
+      "sha256": "570406ac97c35e8825e514a80778612817bff38f9991693fd2c66b9e67a160c0",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ac-dados-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ac-dados-artwork.jpg"
+    },
+    {
       "id": "kn-thunder",
       "name": "Thunder",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/kn-thunder.tendies",
