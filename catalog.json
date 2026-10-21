@@ -1,6 +1,38 @@
 {
   "themes": [
     {
+      "id": "ob-king",
+      "name": "King",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-king.tendies",
+      "sha256": "f7c9605a426f5d5c242b45302215c77303b076c6e50f411b1359ded90f01a663",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-king-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-king-artwork.jpg"
+    },
+    {
+      "id": "ob-oldschool",
+      "name": "Old School",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-oldschool.tendies",
+      "sha256": "616be1cf1768893cc54360fc33025d7ada4c92b22e45f9caef450adc9b9bd24c",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-oldschool-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-oldschool-artwork.jpg"
+    },
+    {
+      "id": "ob-supercar",
+      "name": "Supercar",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-supercar.tendies",
+      "sha256": "f4f834b470d2f54c06b04cd8c3a2e9b4f161364a70b514af0aa96f5d5c033b03",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-supercar-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-supercar-artwork.jpg"
+    },
+    {
+      "id": "ob-eightball",
+      "name": "Eight Ball",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-eightball.tendies",
+      "sha256": "6735ff65c1eb7f89985aa73a3efb30cd4197656bd0d72e048eae36c6b83776d0",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-eightball-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-eightball-artwork.jpg"
+    },
+    {
       "id": "ob-kush",
       "name": "Kush",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-kush.tendies",
