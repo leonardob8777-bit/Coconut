@@ -1,6 +1,38 @@
 {
   "themes": [
     {
+      "id": "ob-kush",
+      "name": "Kush",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-kush.tendies",
+      "sha256": "a531363f1e66f5594d1c869b9f7e964c7bc6818a50e8355df714b98e4e945882",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-kush-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-kush-artwork.jpg"
+    },
+    {
+      "id": "ob-highlife",
+      "name": "High Life",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-highlife.tendies",
+      "sha256": "10924710a9a2099b2e61204210ecdb57ec365a3c4b8bad03b25964f7c75d5bc3",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-highlife-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-highlife-artwork.jpg"
+    },
+    {
+      "id": "ob-sneaker",
+      "name": "Sneakerhead",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-sneaker.tendies",
+      "sha256": "e94b293efd2a2617f55aaad197cbe5d4db75035028b25232f8757ba9e3eeb666",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-sneaker-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-sneaker-artwork.jpg"
+    },
+    {
+      "id": "ob-poker",
+      "name": "Royal Flush",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-poker.tendies",
+      "sha256": "b084300485179af3f435eae4a9a21085d2f1a62a23bc31728bef556f58ec242c",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-poker-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-poker-artwork.jpg"
+    },
+    {
       "id": "ob-money",
       "name": "Vault",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-money.tendies",
