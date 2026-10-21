@@ -1,18 +1,18 @@
 {
   "themes": [
     {
-      "id": "pm-fuego",
-      "name": "On Fire",
-      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-fuego.tendies",
-      "sha256": "b95c515f29c02012985cd6ddacf631d0c06ad1fc7776207311e4af8428e19ff3",
-      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-fuego-artwork.jpg",
-      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-fuego-artwork.jpg"
+      "id": "pm-cielo",
+      "name": "Look At Me",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-cielo.tendies",
+      "sha256": "78c0287c381fc1a22194604f6a53c50da7e8a8d4e8125a792bbb5d001120520f",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-cielo-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-cielo-artwork.jpg"
     },
     {
       "id": "pm-lluvia",
       "name": "Rainy Night",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-lluvia.tendies",
-      "sha256": "fa510b0db5872c63cbb9b8dbbeb4ee8ad9641f81c304a64b717f6a752ec273d7",
+      "sha256": "1cdca9f89d5fe34f125d6bf3f8a6f3703e2018d7f1f78ce575432ea569707135",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-lluvia-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-lluvia-artwork.jpg"
     },
@@ -20,7 +20,7 @@
       "id": "pm-lambo",
       "name": "Tunnel Run",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-lambo.tendies",
-      "sha256": "e10c57d965368fb7e3e99466710c65caf99ef70fd11b70c47da32013e1c72d2b",
+      "sha256": "ed3178d9fec8f669e50d935573adc0937522651eac8cbe28e5f2ec277538b8ac",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-lambo-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-lambo-artwork.jpg"
     },
@@ -28,7 +28,7 @@
       "id": "sc-spider",
       "name": "Hanging Spidey",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-spider.tendies",
-      "sha256": "f789636ef42413a4a61540d1098bfaf9c9551cbda9d20c03da79d5da3d7b266d",
+      "sha256": "91700c747d979f349df59f5cd32d66915a0cfc2e72081e42ffbf5545a4bc6a59",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-spider-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-spider-artwork.jpg"
     },
@@ -36,7 +36,7 @@
       "id": "sc-portal",
       "name": "Sorcerer",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-portal.tendies",
-      "sha256": "ef545b25b6f6b6cdee1f6f28f6db4934f9df70aed6d9d490332982e6cf3617a8",
+      "sha256": "fbbd7d1f90d35dca034e4a849456c1d2b9e37ec8f01cfdbcefdbd188f5c20254",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-portal-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-portal-artwork.jpg"
     },
@@ -44,7 +44,7 @@
       "id": "sc-ovni",
       "name": "Abduction",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-ovni.tendies",
-      "sha256": "1a9c3370d9cc6fe32bfc0fb7950098ab6d1d431dce2cbee4a8cab2d3bc15b116",
+      "sha256": "ebe8fa41703c89db66c700f5edcc163d3dd4cecad44ea59bb296c39783e44eec",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-ovni-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-ovni-artwork.jpg"
     },
@@ -52,7 +52,7 @@
       "id": "cr-glass",
       "name": "Knockout",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cr-glass.tendies",
-      "sha256": "7fa9721dd3eabfdaca69a454837b330efdabbd399f263149ae2be7506dd7c10d",
+      "sha256": "125d6e4c97b4fbd7e3b2247344144bc662617c201f8d5c8afa2955dcbea9a319",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cr-glass-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cr-glass-artwork.jpg"
     },
@@ -60,7 +60,7 @@
       "id": "cr-frame",
       "name": "Masterpiece",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cr-frame.tendies",
-      "sha256": "dc509a72a0e24db448bf5e4422916049b8758ed6f127865e4da619a55812c321",
+      "sha256": "68791ac4d9ffdd357b85101129f1edb9d2a6dc4b36e86723577e41aaaca323a6",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cr-frame-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cr-frame-artwork.jpg"
     },
@@ -68,7 +68,7 @@
       "id": "cu-mando",
       "name": "Stream Mode",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-mando.tendies",
-      "sha256": "c001ed112b669a701c36be5b1b52831d24e4bc7087dc1afe171af397dde9de73",
+      "sha256": "3028ac8b64e1ba11a3b6583d6504187d26b6ba2847456e11fba57e107802c0bd",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-mando-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-mando-artwork.jpg"
     },
@@ -76,7 +76,7 @@
       "id": "cu-jesus",
       "name": "Jesus Piece",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-jesus.tendies",
-      "sha256": "4417cd6135eee949ad35ca72f5cc326f002f064882b68c629b85875a17a972d7",
+      "sha256": "0609a89508b1ccbc71ed2b6018bc746d02f345eef6b00f871bda5ec3c279158d",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-jesus-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-jesus-artwork.jpg"
     },
@@ -84,7 +84,7 @@
       "id": "cu-placa",
       "name": "Platinum",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-placa.tendies",
-      "sha256": "2cb3a951abbda32f3bdf60c6568b82f407c762c545967e1c277e553a6823cbc1",
+      "sha256": "1bceba654b4c68059fc1c753d128596cffe81ee73e53ef1ae2b0250ba66e937a",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-placa-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-placa-artwork.jpg"
     },
@@ -92,7 +92,7 @@
       "id": "cu-arbolito",
       "name": "Little Tree",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-arbolito.tendies",
-      "sha256": "8965374f84e6b796790fefbe06b082c97aaa574b80f4633573b0eabf5ba956b5",
+      "sha256": "b0540898d053940a717456b80f108084fedf1e4d45a63b64ac2c06f1e7a5b930",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-arbolito-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-arbolito-artwork.jpg"
     },
@@ -100,7 +100,7 @@
       "id": "cu-open",
       "name": "Open 24/7",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-open.tendies",
-      "sha256": "f6b5a38a84f7528566619e3507fc2bd6cca22cb57906bdf663cb7906ac4f3a59",
+      "sha256": "275f90a3a16d6bbd423168a0bd7cf5cce506b7d71bd621af265d9470e81d888e",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-open-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-open-artwork.jpg"
     },
@@ -108,7 +108,7 @@
       "id": "cu-bombilla",
       "name": "Interrogation",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-bombilla.tendies",
-      "sha256": "fd1c3701d08447aa8b75dba3eb79a35445a69a725aa1a0eecc9256db54814b85",
+      "sha256": "115b192b10c10fd9914fb8fdb6b6605952d0ed811b25bf75b93f18d5ef239a54",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-bombilla-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-bombilla-artwork.jpg"
     },
@@ -116,7 +116,7 @@
       "id": "cu-grillz",
       "name": "Grillz",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-grillz.tendies",
-      "sha256": "f7811d2d84ce2dc0dfe343fb3c60acd1ae83e372cbc03bec58b8e9d6863ffcb7",
+      "sha256": "9e18f3f2df75ffba0c6a57351a4b69d421e027e5e4cb6752981a08e7fb7e2c8a",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-grillz-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-grillz-artwork.jpg"
     },
@@ -124,7 +124,7 @@
       "id": "cu-champan",
       "name": "Private Jet",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-champan.tendies",
-      "sha256": "47bcc6c85059114ba73a176e2e41cb45487b15f13ce8904bc0371faed5bcaa56",
+      "sha256": "caf9089ea5b39c331cbfba050ce8319f050adb257af8d19ca09de7b71636c91c",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-champan-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-champan-artwork.jpg"
     },
@@ -132,7 +132,7 @@
       "id": "cu-rolex",
       "name": "Daytona",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-rolex.tendies",
-      "sha256": "e4cac85c274006499c97d95da1d263c04e5d782dc12a3d2a48fe9f01132d6ced",
+      "sha256": "29181993ce54181638b8c0c01a77f446a5761785620b4f9cb02ceeef294ad06d",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-rolex-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-rolex-artwork.jpg"
     },
@@ -140,7 +140,7 @@
       "id": "cu-audio",
       "name": "Metro Boomin",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-audio.tendies",
-      "sha256": "2e5c371e3df6d443431466be4f190fd22ea176c1a52ce72d299977ca5bcc358e",
+      "sha256": "5ffd40c220d0dfbfc8dff2566573d96731b862242d9d193a70859a1a46463c6f",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-audio-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-audio-artwork.jpg"
     },
@@ -148,7 +148,7 @@
       "id": "cu-dinero",
       "name": "Gold Vault",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-dinero.tendies",
-      "sha256": "4386a50f24f2ffa5f5262e0a736d0c7aeca5dfb0a11f0b443d4b3faa5a1dbd52",
+      "sha256": "49f91d6ba78b7c39b72f97df82fff07e03fc951f936031cfa91e91ed21db3e4c",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-dinero-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-dinero-artwork.jpg"
     },
@@ -156,7 +156,7 @@
       "id": "cu-jordan",
       "name": "Laces Up",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-jordan.tendies",
-      "sha256": "cde850cecb9aadd54fb7ea7502bb1dd020c1f09497260c516071fce6ef2ac6ea",
+      "sha256": "297e69b16b0a79c48a562669ce398940c87bab330b70dcf9175224410dbc9adf",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-jordan-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-jordan-artwork.jpg"
     },
@@ -164,7 +164,7 @@
       "id": "cu-semaforo",
       "name": "Green Light",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-semaforo.tendies",
-      "sha256": "2750c53f2d2c7dad9d203afeb5541c54025535a04df4c3b2ddc230be198568ae",
+      "sha256": "949d5f71ca53471ef15bc99dec1b48dc0f69849315ff8ca2d0f62f566b20ec55",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-semaforo-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-semaforo-artwork.jpg"
     },
@@ -172,7 +172,7 @@
       "id": "cu-disco",
       "name": "Munch",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-disco.tendies",
-      "sha256": "4e416dd7a264796f82e948dabdcf326481212553645c23d761f11180108cad18",
+      "sha256": "b8917a0919f3e17095a9c3d14c8e6d9a28a0b8c11ef2ed45812518029c9ecc38",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-disco-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-disco-artwork.jpg"
     },
@@ -180,7 +180,7 @@
       "id": "cu-mic",
       "name": "Drip Too Hard",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-mic.tendies",
-      "sha256": "61f581fb0b4d21cc62487c62526d4eae7e5e7f0a28d23b5ebe974a24ea5e9bc7",
+      "sha256": "ba8e524ecc42bbb4994bc6160a44eb3cf7f5f51506604f4e4b2d983b43a5b32d",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-mic-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-mic-artwork.jpg"
     },
@@ -188,7 +188,7 @@
       "id": "cu-box",
       "name": "Iron Mike",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-box.tendies",
-      "sha256": "b886b2f6cb41d676e0c8662e626912bba290c356d969019f42332add2b9a6d9e",
+      "sha256": "296248c7295ca9f37c22d02338f51c601b2413c91f0bb69be3bb23541c5ff3b6",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-box-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-box-artwork.jpg"
     },
@@ -196,7 +196,7 @@
       "id": "is-dunk",
       "name": "Slam Dunk",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-dunk.tendies",
-      "sha256": "0b4f43dd233aafea4d998b2c21c093eab528150e70c7cddda5ca0db56ea09aac",
+      "sha256": "b540664e0ffa30517bfb5ab8a28421dcb72098dd5570423b2e4940a16d116d25",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-dunk-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-dunk-artwork.jpg"
     },
@@ -204,7 +204,7 @@
       "id": "is-police",
       "name": "No Smoke",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-police.tendies",
-      "sha256": "0f19b139c792c28217eca6c5074e68bc0f1cf290e65cc203f7cc8757bd2eaad4",
+      "sha256": "f98c340678afc5dfc35d2632f8851d315dbdf2ba93cb11746f4ee3e3f3dfa4a1",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-police-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-police-artwork.jpg"
     },
@@ -212,7 +212,7 @@
       "id": "is-chain",
       "name": "Iced Out",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-chain.tendies",
-      "sha256": "3b357c01c1850884f42b67da42c0fb108b84c581c08618c572e5a9677c6ea863",
+      "sha256": "bd5c12db3258060f06b0f857b5a03e5fb970df8a433de50765b7be3c1063b5ce",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-chain-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-chain-artwork.jpg"
     },
@@ -220,7 +220,7 @@
       "id": "is-cash",
       "name": "Cash Out",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-cash.tendies",
-      "sha256": "946fb46ffd7927df3e56e927d2f111ea797702fd4d30405ff1cf239573414980",
+      "sha256": "6f63fb6bd85c734741b756a17e576e0e3d2984cefec6a341fe49f1c9b7e2a229",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-cash-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/is-cash-artwork.jpg"
     },
@@ -228,7 +228,7 @@
       "id": "pr-cr7",
       "name": "SIUUU",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-cr7.tendies",
-      "sha256": "09d2e0c3d4c8d7a65e8bfe910792a76bf7b2898273e48908ad463dacfa60f78f",
+      "sha256": "838bd69d7cef439b9b6ca21d5622a90bf9cc3af6f423374efa7eebdc300e0e68",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-cr7-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-cr7-artwork.jpg"
     },
@@ -236,7 +236,7 @@
       "id": "pr-uzi",
       "name": "Pink Tape",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-uzi.tendies",
-      "sha256": "56692f6ef8eb8491f87dfe45ff06401dd1103816fce6204e045b5ab4762de6b4",
+      "sha256": "1505ed48e2e71402905b602ecb5c5b2335da06bd8e507249937d37be6dc59437",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-uzi-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-uzi-artwork.jpg"
     },
@@ -244,7 +244,7 @@
       "id": "pr-lebron",
       "name": "King James",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-lebron.tendies",
-      "sha256": "93e84ca7bd6a6778d9f786a78f1ab5d08c2f4387c0c42f8776d72606326862c1",
+      "sha256": "9fd470094c0de23341b559a9aea46835ad132c5fb2ff05a6cef9eb5e67309824",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-lebron-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-lebron-artwork.jpg"
     },
@@ -252,7 +252,7 @@
       "id": "pr-deadpool",
       "name": "Besties",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-deadpool.tendies",
-      "sha256": "0c4250511f37f125bf8d7e27ffc87377b8d34904dbcdb85efa03823bc5f5933a",
+      "sha256": "7a9ed73eb67452e554477a9a03729fb23dbec71cefd2bd050b84adc2bed81515",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-deadpool-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-deadpool-artwork.jpg"
     },
@@ -260,7 +260,7 @@
       "id": "pr-lazer",
       "name": "Hellcat",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-lazer.tendies",
-      "sha256": "f1f62641a46ca643c1ce2b4099a1a33cc49c01f023743b4bc4e36d307b402cf6",
+      "sha256": "1af15a3dfefd6b96a198400a1d557f30c76a4d90a309b1509e4d265c965056e1",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-lazer-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-lazer-artwork.jpg"
     },
@@ -268,7 +268,7 @@
       "id": "pr-kobe",
       "name": "Mamba Mentality",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-kobe.tendies",
-      "sha256": "7c5bc3fbb18da4023d1c6b7d9bf3cdc0b10a03d63f56e0d21cf58c5d1df2ee1c",
+      "sha256": "e056090298f245cebc9461fd3416b29d6f3add92f703cd118d20c2066d998e9e",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-kobe-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-kobe-artwork.jpg"
     },
@@ -276,7 +276,7 @@
       "id": "pr-juice",
       "name": "999",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-juice.tendies",
-      "sha256": "6bee67f6a394fe19e52d6afa677b68cd4a1ad1fc81e673d5b07b203995b1f11d",
+      "sha256": "21255401ddfe1d1e7a78378c263179fe9febfe478dc80064e9d64102a18f82e2",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-juice-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-juice-artwork.jpg"
     },
@@ -284,7 +284,7 @@
       "id": "pr-batman",
       "name": "Vengeance",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-batman.tendies",
-      "sha256": "c142e4d52353543d44352d4ff743cde4734f3cdd26c0df8c2b0e1c93036a24db",
+      "sha256": "d385e018a908c52fcddc5ab651e5e1c453fd66956445a4b073d792afc92c7717",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-batman-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-batman-artwork.jpg"
     },
@@ -292,7 +292,7 @@
       "id": "pr-cabra",
       "name": "The GOAT",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-cabra.tendies",
-      "sha256": "ebd73dd5d330f233e49e850899b7a344aa94eaad29393f09eac54f811bf86f11",
+      "sha256": "b730885498682fe1c192f86e69de90d679bf5ad39399f8c2e82bcc17d72965c9",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-cabra-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-cabra-artwork.jpg"
     },
@@ -300,7 +300,7 @@
       "id": "pr-toro",
       "name": "The Last Dance",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-toro.tendies",
-      "sha256": "bbcfa1e47cf2d86561757e12fe59d572d0a82458295d82bcd86e0d4753273357",
+      "sha256": "59f978e365100c74237181bd2e7227006cb8f08a4394eacff602fe393a1d0428",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-toro-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-toro-artwork.jpg"
     },
@@ -308,7 +308,7 @@
       "id": "pr-lobo",
       "name": "Wolves",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-lobo.tendies",
-      "sha256": "ad08622d9592bc56832724cc47f7ec6b25e0f31f1db4ca6b8de50de4c0b6caa1",
+      "sha256": "0d0cfaff56e80ebad3fcaf25df4e626e4366be3e3862b3cfa9b3f2075230c49f",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-lobo-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-lobo-artwork.jpg"
     },
@@ -316,7 +316,7 @@
       "id": "pr-drake",
       "name": "Take Care",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-drake.tendies",
-      "sha256": "7c44c45e981c33d0ac0802c3d3657f3e0aad1037086a406800ff281d1632a155",
+      "sha256": "f4e9ade01147069d3246ac082388c44ad22a684e3759f8c2ef4b907d662ad9da",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-drake-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pr-drake-artwork.jpg"
     },
@@ -324,7 +324,7 @@
       "id": "esp-nba",
       "name": "Never Broke Again",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/esp-nba.tendies",
-      "sha256": "f0d34486a0fa4308224d345a2d84e855ed0a3f3b928bbb694df9dba4297c841c",
+      "sha256": "b05d477fbe4405069f46355961a42ba07190e876b7accc61c2fff8aaa9cf5f0c",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/esp-nba-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/esp-nba-artwork.jpg"
     },
@@ -332,7 +332,7 @@
       "id": "esp-golazo",
       "name": "Top Bins",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/esp-golazo.tendies",
-      "sha256": "ce35378755dabc4b622ffc7791fa17b981bac89f10aa78afea148c015f8fab50",
+      "sha256": "6528e5626c22fe7e38a9c12a597cffcb99ff25376358f0a5ce6ac50af286932f",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/esp-golazo-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/esp-golazo-artwork.jpg"
     },
@@ -340,7 +340,7 @@
       "id": "esp-mate",
       "name": "Posterized",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/esp-mate.tendies",
-      "sha256": "c94464135ae5071430d9cd4aae1deefde74d24c246a27338f79baac6e6b5a35f",
+      "sha256": "98da4fde0452921cc990d7adf92f0378015cb5ce25aae52cd3b0ace4295ca99e",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/esp-mate-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/esp-mate-artwork.jpg"
     },
@@ -348,7 +348,7 @@
       "id": "esp-jet",
       "name": "Talk To Me, Goose",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/esp-jet.tendies",
-      "sha256": "37a2f74b0d8fa95852da4e38bcb558d08910b81746349ca58e6e8b8fc93cf2de",
+      "sha256": "62af55adeccb24ec103b14d6d852078ef76972e7d58f66faf0a16c3a1f8a12c7",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/esp-jet-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/esp-jet-artwork.jpg"
     },
@@ -356,7 +356,7 @@
       "id": "esp-miles",
       "name": "Anyone Can Wear The Mask",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/esp-miles.tendies",
-      "sha256": "444426f507c1ef29b553a23a572c2015b884f562e4bf1b3e3e46ff87778794f4",
+      "sha256": "a527968e98bf6fbebe3d238188720a04dab7475b1d40fe1fa1cf9c242f303541",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/esp-miles-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/esp-miles-artwork.jpg"
     },
@@ -364,7 +364,7 @@
       "id": "es-escorpion",
       "name": "Literally Me",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-escorpion.tendies",
-      "sha256": "6545013290e7b3d1dc2ac58c99e02ca060a4aaf3528211785545df459a2e24ec",
+      "sha256": "b890cf3f25c87b1d2d5aa6245ed36e7a436d0f95456a4035e4bc3fb6002fd8c8",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-escorpion-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-escorpion-artwork.jpg"
     },
@@ -372,7 +372,7 @@
       "id": "es-cuchilla",
       "name": "Peaky Blinders",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-cuchilla.tendies",
-      "sha256": "74f857f88d4af02895e5e559c02b5786058b8e4847aa2b6d9f0677eaf30b19a2",
+      "sha256": "fd3a844f5579a4b07d7118c71a1b78d8b5b34e4639d3f3c1389b44a9181d5e17",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-cuchilla-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-cuchilla-artwork.jpg"
     },
@@ -380,7 +380,7 @@
       "id": "es-tarjeta",
       "name": "Business Card",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-tarjeta.tendies",
-      "sha256": "cdf8c660e52dbe0511e57d496d351fe3c8c47ccbc457c190e2bde2f540cd80aa",
+      "sha256": "51f56d966ce2e057ab646e4f07b04a11086f561e31eab162f8cfc378d3693156",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-tarjeta-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-tarjeta-artwork.jpg"
     },
@@ -388,7 +388,7 @@
       "id": "es-joker",
       "name": "Joker Card",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-joker.tendies",
-      "sha256": "13a720390eded1a415a233ab93e68046282b2573a5b87e94505588fc9881ff95",
+      "sha256": "e20d6f6785b6c1bf5d79b6a87e418d606000bc948442f54cd266aab2e5ea81da",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-joker-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-joker-artwork.jpg"
     },
@@ -396,7 +396,7 @@
       "id": "es-planeta",
       "name": "Think, Mark!",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-planeta.tendies",
-      "sha256": "004072a618837ad0cc1914eebec31a438d337e233e976be852f94abf7c707c93",
+      "sha256": "d25e07c7117bef60cdd543bf6019f67b8473d7e16dd73b0785377510a87890f2",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-planeta-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-planeta-artwork.jpg"
     },
@@ -404,7 +404,7 @@
       "id": "es-leche",
       "name": "Got Milk?",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-leche.tendies",
-      "sha256": "c59b968bf658ec225027c150db8185ca6af0c3e2e2cceaddc9fef4558bd02d70",
+      "sha256": "410484b4c8ee9f77419f34300c4fe2d3a685a321745a7cccb7fc19231a822710",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-leche-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-leche-artwork.jpg"
     },
@@ -412,7 +412,7 @@
       "id": "es-bandera",
       "name": "America's Hero",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-bandera.tendies",
-      "sha256": "8f8ef15ce6d82e59a6439ab646d788352527866a22d38565b22b75f209cd268b",
+      "sha256": "e709b21e1fc453f13ce85382208f7c7b1b09769e03234f2c3ffc2032572b44f3",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-bandera-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-bandera-artwork.jpg"
     },
@@ -420,7 +420,7 @@
       "id": "es-sharingan",
       "name": "Sharingan",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-sharingan.tendies",
-      "sha256": "9bec05803917aff202347902fe233cc78022eefa6ff321dd9f3de206315ca4ca",
+      "sha256": "43d85e2f7a043096fce3539bede7c8623689e94819ef694ea5bfd892aef3e8d1",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-sharingan-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-sharingan-artwork.jpg"
     },
@@ -428,7 +428,7 @@
       "id": "es-santoryu",
       "name": "Three Swords",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-santoryu.tendies",
-      "sha256": "70a99b66ec0f0c1151f9db2377b542599583580b5b21382b93ad2b194df2fd10",
+      "sha256": "4a29ddf6526bd5559b89fb38f0d20023bbcd575d07a0576b01e26ef689d60853",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-santoryu-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-santoryu-artwork.jpg"
     },
@@ -436,7 +436,7 @@
       "id": "es-dominio",
       "name": "Malevolent Shrine",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-dominio.tendies",
-      "sha256": "9bd4757443c8fdb14f5a6ffca6c320404853336815de109a001ee63c9320eef2",
+      "sha256": "80d5f882ba1c6e6a6e230d03b149033bc3e3ad2ce6e8f8c0d27f47829dd6fdba",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-dominio-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-dominio-artwork.jpg"
     },
@@ -444,7 +444,7 @@
       "id": "es-llama",
       "name": "Flame Hashira",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-llama.tendies",
-      "sha256": "adc9c1b9a52b0dfa8f6adda89102fe8ed5c43e32901ded5249c11599650d481a",
+      "sha256": "09abfbb0a39342f6630838ec0dea3a09ed1e050d32b6739ece2860afea3da565",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-llama-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-llama-artwork.jpg"
     },
@@ -452,7 +452,7 @@
       "id": "es-chainsaw",
       "name": "Chainsaw",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-chainsaw.tendies",
-      "sha256": "3df051745f1f0c0b7e1999ac2ec48daa9b457c4dec21238089cde9370d751411",
+      "sha256": "e18b6965b0118a300a2d42b7ca8853215c808a05dec684e3133e88c1a9d7a86a",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-chainsaw-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-chainsaw-artwork.jpg"
     },
@@ -460,7 +460,7 @@
       "id": "es-corona",
       "name": "Jesus Is King",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-corona.tendies",
-      "sha256": "3c86c06dc44996dcae59bf83874760c0dc973f75821c6b10f52e7a6b6cf26475",
+      "sha256": "d901641cf2b28397a504f501db173d89fc94288f7426ee032b40e3f9c31ff09f",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-corona-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-corona-artwork.jpg"
     },
@@ -468,7 +468,7 @@
       "id": "es-saves",
       "name": "Jesus Saves",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-saves.tendies",
-      "sha256": "8b0eabaacdf753ac31ded4e487aa72510b20649d7ed32264cee8fd28fbecea0d",
+      "sha256": "1955aa8a288368fc9046ce4d4b18ba1a4c9bee0bc56b1bdbeb7307f50870baa6",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-saves-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-saves-artwork.jpg"
     },
@@ -476,7 +476,7 @@
       "id": "es-ascension",
       "name": "Risen",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-ascension.tendies",
-      "sha256": "cdc1962aad8b37c4df3bf133e120e5ab948a19ac62712ece18d1db0b96bfc434",
+      "sha256": "9ede9dc83e47e6f98fb5a0001e12dd85b49dd48c51053ee508f35bc6617b9788",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-ascension-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-ascension-artwork.jpg"
     },
@@ -484,7 +484,7 @@
       "id": "es-getsemani",
       "name": "Gethsemane",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-getsemani.tendies",
-      "sha256": "2277bd196c29257151276c4a97c275cd11324f2c415475f463bb5b04d341b55b",
+      "sha256": "63a2557e68807f159f4b5c23a152738b6d81b7db7e358e25b641f3e2b13a48dc",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-getsemani-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-getsemani-artwork.jpg"
     },
@@ -492,7 +492,7 @@
       "id": "es-vidriera",
       "name": "Stained Glass",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-vidriera.tendies",
-      "sha256": "51f0d5671df4ddc72126a1a37323b859f03b175bd1c8f7d3f68721175bf5d16e",
+      "sha256": "c9bdcc00caafadd4acc3fce4f34e6159a113c0c57ab6ba07cbb83fb67ec6e824",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-vidriera-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-vidriera-artwork.jpg"
     },
@@ -500,7 +500,7 @@
       "id": "es-creacion",
       "name": "Creation",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-creacion.tendies",
-      "sha256": "2c60d4ef5d83a28ff6e74156d9130f61db4438edefa4009e6fa1441734444d86",
+      "sha256": "2dea126024d97e40f827d1fdbb4e8bf7f8a52d1f429fe9a83dffa2e159f85f0e",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-creacion-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-creacion-artwork.jpg"
     },
@@ -508,7 +508,7 @@
       "id": "es-cruz",
       "name": "The Cross",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-cruz.tendies",
-      "sha256": "e4dbe96b8481d3e7ac8fce1afe1f470b4c51a180f90301f4d453fdb802761157",
+      "sha256": "a605bb2370f7d4e0a76bd1d6d0a91941048d60b3069f22e74c40d5b884b6ac4c",
       "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-cruz-artwork.jpg",
       "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/es-cruz-artwork.jpg"
     },
