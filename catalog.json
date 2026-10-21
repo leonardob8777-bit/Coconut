@@ -1,6 +1,30 @@
 {
   "themes": [
     {
+      "id": "ep-diamond",
+      "name": "Ice Cold",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ep-diamond.tendies",
+      "sha256": "2c36e2001b2bb4ca0ab2682b4fbaa9cc88bf563147c24d5367d51a4934dedcde",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ep-diamond-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ep-diamond-artwork.jpg"
+    },
+    {
+      "id": "ep-chandelier",
+      "name": "Penthouse",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ep-chandelier.tendies",
+      "sha256": "1bafeb5402af78dfc98a8784703e483bc3f42a8fd47a0c477692e20beec37331",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ep-chandelier-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ep-chandelier-artwork.jpg"
+    },
+    {
+      "id": "ep-rain",
+      "name": "Make It Rain",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ep-rain.tendies",
+      "sha256": "953de0b0266c8973f807aeaaad0668b129c0e3e3cd9d5232d93117d80dd2ed9b",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ep-rain-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ep-rain-artwork.jpg"
+    },
+    {
       "id": "ac-patada",
       "name": "Game Winner",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ac-patada.tendies",
