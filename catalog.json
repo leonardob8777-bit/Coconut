@@ -1,6 +1,30 @@
 {
   "themes": [
     {
+      "id": "sc-spider",
+      "name": "Hanging Spidey",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-spider.tendies",
+      "sha256": "f789636ef42413a4a61540d1098bfaf9c9551cbda9d20c03da79d5da3d7b266d",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-spider-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-spider-artwork.jpg"
+    },
+    {
+      "id": "sc-portal",
+      "name": "Sorcerer",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-portal.tendies",
+      "sha256": "ef545b25b6f6b6cdee1f6f28f6db4934f9df70aed6d9d490332982e6cf3617a8",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-portal-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-portal-artwork.jpg"
+    },
+    {
+      "id": "sc-ovni",
+      "name": "Abduction",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-ovni.tendies",
+      "sha256": "1a9c3370d9cc6fe32bfc0fb7950098ab6d1d431dce2cbee4a8cab2d3bc15b116",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-ovni-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-ovni-artwork.jpg"
+    },
+    {
       "id": "cr-glass",
       "name": "Knockout",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cr-glass.tendies",
