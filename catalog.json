@@ -1,6 +1,30 @@
 {
   "themes": [
     {
+      "id": "kn-thunder",
+      "name": "Thunder",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/kn-thunder.tendies",
+      "sha256": "9a437008b40a9c53a9a9c0efc0c962918000c551804ded6ba8bcad8975e6d110",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/kn-thunder-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/kn-thunder-artwork.jpg"
+    },
+    {
+      "id": "kn-wall",
+      "name": "No Limits",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/kn-wall.tendies",
+      "sha256": "a338d0eddb849e48482a1c64c359ef1995a995a2ef2037b396aebcbea97e4cc0",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/kn-wall-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/kn-wall-artwork.jpg"
+    },
+    {
+      "id": "kn-gameday",
+      "name": "Game Day",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/kn-gameday.tendies",
+      "sha256": "2d00007a8113eb564c9b52ce7af6b60d3e28d0c376a6971a2c6f3ba56a822dab",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/kn-gameday-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/kn-gameday-artwork.jpg"
+    },
+    {
       "id": "pm-cielo",
       "name": "Look At Me",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-cielo.tendies",
