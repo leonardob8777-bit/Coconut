@@ -1,6 +1,38 @@
 {
   "themes": [
     {
+      "id": "ar-gnx",
+      "name": "GNX",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-gnx.tendies",
+      "sha256": "2568f0cd2c9b3600e5125e84487d71504dc5e7a650e685bd37808cd6b0023114",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-gnx-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-gnx-artwork.jpg"
+    },
+    {
+      "id": "ar-flowerboy",
+      "name": "Flower Boy",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-flowerboy.tendies",
+      "sha256": "980234e1e62330fd7a315e817105e55f17dfcf07793d8742c5e4d24cba1bb7d2",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-flowerboy-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-flowerboy-artwork.jpg"
+    },
+    {
+      "id": "ar-redbottoms",
+      "name": "Red Bottoms",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-redbottoms.tendies",
+      "sha256": "684902db9b781c47f7cfee8dadd93e9fee1aa192ceebb38bfe1326da9b406f51",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-redbottoms-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-redbottoms-artwork.jpg"
+    },
+    {
+      "id": "ar-rockstar",
+      "name": "Rockstar",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-rockstar.tendies",
+      "sha256": "f500ba8cd50c9a18efcdb88f9a0027573bb0bfd2a4e1b632290a3bb4b3b78a2b",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-rockstar-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-rockstar-artwork.jpg"
+    },
+    {
       "id": "ob-champion",
       "name": "Champion",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ob-champion.tendies",
