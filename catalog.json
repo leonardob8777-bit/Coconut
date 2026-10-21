@@ -1,6 +1,38 @@
 {
   "themes": [
     {
+      "id": "fr-focus",
+      "name": "Focus",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/fr-focus.tendies",
+      "sha256": "e2b1823b38ac35a8e3b9829d43ed3fffafd89ef50c9ae708bb8193f2da75fb46",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/fr-focus-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/fr-focus-artwork.jpg"
+    },
+    {
+      "id": "fr-discipline",
+      "name": "Discipline",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/fr-discipline.tendies",
+      "sha256": "7bd4004cd234bf2b1b264a5feaf5714f60a6e6a69d6787a7b4d8ea3e41d9c16a",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/fr-discipline-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/fr-discipline-artwork.jpg"
+    },
+    {
+      "id": "fr-noexcuses",
+      "name": "No Excuses",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/fr-noexcuses.tendies",
+      "sha256": "79d68df81622fd0823ae2e22ebd6a196acf1b2ea5c78bb62e452bc1be6590fee",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/fr-noexcuses-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/fr-noexcuses-artwork.jpg"
+    },
+    {
+      "id": "fr-silence",
+      "name": "Move In Silence",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/fr-silence.tendies",
+      "sha256": "a45c7ee152a190bc02e700e3656c05c77051d59abfa9f1b3cddf1cb95fa097e9",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/fr-silence-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/fr-silence-artwork.jpg"
+    },
+    {
       "id": "ar-pinkfriday",
       "name": "Pink Friday",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-pinkfriday.tendies",
