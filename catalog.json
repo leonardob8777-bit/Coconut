@@ -1,6 +1,38 @@
 {
   "themes": [
     {
+      "id": "ar-pinkfriday",
+      "name": "Pink Friday",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-pinkfriday.tendies",
+      "sha256": "b5b115ef898ee7889679aa3c013d2b08949804191239a98347c4e0065bd9526c",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-pinkfriday-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-pinkfriday-artwork.jpg"
+    },
+    {
+      "id": "ar-stallion",
+      "name": "Stallion",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-stallion.tendies",
+      "sha256": "3bd7c5d959abddfb0b4b102b6c5e11a981276b4f798f1c07cce65fc27af537ae",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-stallion-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-stallion-artwork.jpg"
+    },
+    {
+      "id": "ar-lilboat",
+      "name": "Lil Boat",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-lilboat.tendies",
+      "sha256": "4b0c05ce4185fbf4e9cc93756b5baabd7a8f050be02e8c0168b5f5e1431f3e29",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-lilboat-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-lilboat-artwork.jpg"
+    },
+    {
+      "id": "ar-candyshop",
+      "name": "Candy Shop",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-candyshop.tendies",
+      "sha256": "4639f100ae40fb8e37637cb06b3b7a4f12d546a38e72abb5fe8d79f6ea547f17",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-candyshop-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-candyshop-artwork.jpg"
+    },
+    {
       "id": "ar-gnx",
       "name": "GNX",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/ar-gnx.tendies",
