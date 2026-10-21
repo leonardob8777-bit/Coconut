@@ -1,6 +1,30 @@
 {
   "themes": [
     {
+      "id": "pm-fuego",
+      "name": "On Fire",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-fuego.tendies",
+      "sha256": "b95c515f29c02012985cd6ddacf631d0c06ad1fc7776207311e4af8428e19ff3",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-fuego-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-fuego-artwork.jpg"
+    },
+    {
+      "id": "pm-lluvia",
+      "name": "Rainy Night",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-lluvia.tendies",
+      "sha256": "fa510b0db5872c63cbb9b8dbbeb4ee8ad9641f81c304a64b717f6a752ec273d7",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-lluvia-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-lluvia-artwork.jpg"
+    },
+    {
+      "id": "pm-lambo",
+      "name": "Tunnel Run",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-lambo.tendies",
+      "sha256": "e10c57d965368fb7e3e99466710c65caf99ef70fd11b70c47da32013e1c72d2b",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-lambo-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/pm-lambo-artwork.jpg"
+    },
+    {
       "id": "sc-spider",
       "name": "Hanging Spidey",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/sc-spider.tendies",
