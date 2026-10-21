@@ -1,6 +1,22 @@
 {
   "themes": [
     {
+      "id": "cr-glass",
+      "name": "Knockout",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cr-glass.tendies",
+      "sha256": "7fa9721dd3eabfdaca69a454837b330efdabbd399f263149ae2be7506dd7c10d",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cr-glass-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cr-glass-artwork.jpg"
+    },
+    {
+      "id": "cr-frame",
+      "name": "Masterpiece",
+      "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cr-frame.tendies",
+      "sha256": "dc509a72a0e24db448bf5e4422916049b8758ed6f127865e4da619a55812c321",
+      "previewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cr-frame-artwork.jpg",
+      "fullResolutionPreviewURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cr-frame-artwork.jpg"
+    },
+    {
       "id": "cu-mando",
       "name": "Stream Mode",
       "packageURL": "https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/gyroscope-2026-10-20/cu-mando.tendies",
