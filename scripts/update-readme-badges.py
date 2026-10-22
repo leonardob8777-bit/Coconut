@@ -4,7 +4,7 @@ import datetime, json, subprocess
 from pathlib import Path
 from html import escape
 ROOT=Path(__file__).resolve().parents[1]
-REPO='leonardob8777-bit/Coconut-Catalog'
+REPO='leonardob8777-bit/Coconut'
 def api(path): return json.loads(subprocess.check_output(['gh','api',path]))
 repo=api('repos/'+REPO)
 releases=[]

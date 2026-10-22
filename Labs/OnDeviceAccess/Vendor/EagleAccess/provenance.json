@@ -1,0 +1,210 @@
+{
+  "repository": "https://github.com/leonardob8777-bit/Eagle",
+  "commit": "2b0dc8f1a30a3bde85ec98893645ed2d952b2a96",
+  "license": "AGPL-3.0",
+  "modifications": [
+    "darksword.m: remove persistence header, stashKRW preference and both launchd persistence/recovery branches; no persistence implementation linked."
+  ],
+  "files": [
+    {
+      "path": "LICENSE",
+      "upstreamSHA256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+      "localSHA256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+    },
+    {
+      "path": "lara/kexploit/darksword.h",
+      "upstreamSHA256": "6d1d0add8d94c2d9b606612ec799c8c257b88c4ac9d7c491cbd7468be6b896d8",
+      "localSHA256": "6d1d0add8d94c2d9b606612ec799c8c257b88c4ac9d7c491cbd7468be6b896d8"
+    },
+    {
+      "path": "lara/kexploit/darksword.m",
+      "upstreamSHA256": "a693177b3c1d91d270372ff67e3b87172a766cf89b02893f22d6c5079579b8b3",
+      "localSHA256": "b5d3f7fe16a5f8f4696166c318aae3ecc2758f9cd4c20ab8bbaf045c7c53047f"
+    },
+    {
+      "path": "lara/kexploit/utils.h",
+      "upstreamSHA256": "3c1e88ace252cde655fb2aa5712696ad0809c477dc4c7b3f000ac2bf109a1ab2",
+      "localSHA256": "3c1e88ace252cde655fb2aa5712696ad0809c477dc4c7b3f000ac2bf109a1ab2"
+    },
+    {
+      "path": "lara/kexploit/utils.m",
+      "upstreamSHA256": "291b0bb021a5fe6f75a21b502718c09cf0edaf66b88732a9bba24183be05bd06",
+      "localSHA256": "291b0bb021a5fe6f75a21b502718c09cf0edaf66b88732a9bba24183be05bd06"
+    },
+    {
+      "path": "lara/kexploit/offsets.h",
+      "upstreamSHA256": "7c086507e369af76f9a2ce70388deab925660bd61331f2966d3ed136caa56408",
+      "localSHA256": "7c086507e369af76f9a2ce70388deab925660bd61331f2966d3ed136caa56408"
+    },
+    {
+      "path": "lara/kexploit/offsets.m",
+      "upstreamSHA256": "461bb5cf99a3ee5c6c66145fb0d091e250dddf656085a3843dedd8a14b1968bc",
+      "localSHA256": "461bb5cf99a3ee5c6c66145fb0d091e250dddf656085a3843dedd8a14b1968bc"
+    },
+    {
+      "path": "lara/kexploit/kernel_pointer_validation.h",
+      "upstreamSHA256": "fdad41615175ce090222d6f46dab47b6c8a058285a918f6d8a1a3b8693882527",
+      "localSHA256": "fdad41615175ce090222d6f46dab47b6c8a058285a918f6d8a1a3b8693882527"
+    },
+    {
+      "path": "lara/kexploit/pe/sbx.h",
+      "upstreamSHA256": "df5c87bf1c6d84151d92761b548cdec8c45ffaae9e912d5dd894397c93402fca",
+      "localSHA256": "df5c87bf1c6d84151d92761b548cdec8c45ffaae9e912d5dd894397c93402fca"
+    },
+    {
+      "path": "lara/kexploit/pe/sbx.m",
+      "upstreamSHA256": "32ea8ebd803b301da2ed61c08b5ad1fa0168275a773eb28e8fff8609a2aa6434",
+      "localSHA256": "32ea8ebd803b301da2ed61c08b5ad1fa0168275a773eb28e8fff8609a2aa6434"
+    },
+    {
+      "path": "lara/kexploit/pe/xpaci.h",
+      "upstreamSHA256": "422ae7415b5e7c8456d399a649d0211309f1e436900b031b4c84ecd90b0e4faa",
+      "localSHA256": "422ae7415b5e7c8456d399a649d0211309f1e436900b031b4c84ecd90b0e4faa"
+    },
+    {
+      "path": "lara/kexploit/pe/vnode.h",
+      "upstreamSHA256": "8e79150a304d4b0b6abd8def984bc3a390cf491a07ba8b5692c8019914d1278b",
+      "localSHA256": "8e79150a304d4b0b6abd8def984bc3a390cf491a07ba8b5692c8019914d1278b"
+    },
+    {
+      "path": "lara/headers/xpf.h",
+      "upstreamSHA256": "81930718667ef1fe5cebbde986db89cad7c7b01f7a4a3603e481edeead7461a2",
+      "localSHA256": "81930718667ef1fe5cebbde986db89cad7c7b01f7a4a3603e481edeead7461a2"
+    },
+    {
+      "path": "lara/headers/libgrabkernel2.h",
+      "upstreamSHA256": "05474f26ba973bd751f14e996be5fc115e46ef1e4d454447bfc1146c166d04a8",
+      "localSHA256": "05474f26ba973bd751f14e996be5fc115e46ef1e4d454447bfc1146c166d04a8"
+    },
+    {
+      "path": "lara/lib/libxpf.dylib",
+      "upstreamSHA256": "e87d0469bc542e1403531cf7d4f027335d514882c78b5a80cb750c5e6f310a30",
+      "localSHA256": "e87d0469bc542e1403531cf7d4f027335d514882c78b5a80cb750c5e6f310a30"
+    },
+    {
+      "path": "lara/lib/libgrabkernel2.dylib",
+      "upstreamSHA256": "fb27032f7a9401b52ba94821de301aa2a57e3f61fc67bf464db3ce4075b52a4e",
+      "localSHA256": "fb27032f7a9401b52ba94821de301aa2a57e3f61fc67bf464db3ce4075b52a4e"
+    },
+    {
+      "path": "lara/lib/choma/MachOLoadCommand.h",
+      "upstreamSHA256": "91d52898bf1192df232b32c294aebca71d94ca7f8230d91f8bc1e3bd7b643aaf",
+      "localSHA256": "91d52898bf1192df232b32c294aebca71d94ca7f8230d91f8bc1e3bd7b643aaf"
+    },
+    {
+      "path": "lara/lib/choma/MemoryStream.h",
+      "upstreamSHA256": "db3090952552c954a78c022b8cfe064d47f3931776ebc3667e3196c54e7d5fcf",
+      "localSHA256": "db3090952552c954a78c022b8cfe064d47f3931776ebc3667e3196c54e7d5fcf"
+    },
+    {
+      "path": "lara/lib/choma/Base64.h",
+      "upstreamSHA256": "c7cdd1b1e76b754195502ea3871ed4c10f9a44be4af1b26105a48408e63f97aa",
+      "localSHA256": "c7cdd1b1e76b754195502ea3871ed4c10f9a44be4af1b26105a48408e63f97aa"
+    },
+    {
+      "path": "lara/lib/choma/Host.h",
+      "upstreamSHA256": "1b2f1a144227ff396cda24d213cfea47b3f1abdde2ba9b6623be4af23a77627f",
+      "localSHA256": "1b2f1a144227ff396cda24d213cfea47b3f1abdde2ba9b6623be4af23a77627f"
+    },
+    {
+      "path": "lara/lib/choma/fixup-chains.h",
+      "upstreamSHA256": "17db8c0939e96cbba9f0f4078340101b7ca49b8b6aafae34c9fe981b36791021",
+      "localSHA256": "17db8c0939e96cbba9f0f4078340101b7ca49b8b6aafae34c9fe981b36791021"
+    },
+    {
+      "path": "lara/lib/choma/Entitlements.h",
+      "upstreamSHA256": "b0c4a6736c62d49f26e4273aec7589d2acae9d0b42bc43f7b6ff60c92dc57d09",
+      "localSHA256": "b0c4a6736c62d49f26e4273aec7589d2acae9d0b42bc43f7b6ff60c92dc57d09"
+    },
+    {
+      "path": "lara/lib/choma/DyldSharedCache.h",
+      "upstreamSHA256": "a6e76ed6e9d9089ad6b62aaf471ed8a7153edb5c858473f8ec1c79e98e06baa5",
+      "localSHA256": "a6e76ed6e9d9089ad6b62aaf471ed8a7153edb5c858473f8ec1c79e98e06baa5"
+    },
+    {
+      "path": "lara/lib/choma/DER.h",
+      "upstreamSHA256": "d15e275ea01b42e193443d4d311280e625ff57f6042bb72757f8b4a3bd0d964c",
+      "localSHA256": "d15e275ea01b42e193443d4d311280e625ff57f6042bb72757f8b4a3bd0d964c"
+    },
+    {
+      "path": "lara/lib/choma/PatchFinder_arm64.h",
+      "upstreamSHA256": "a72dffabcf3f2f36747c66c3db97d208efa6f6a16d117046f99ab4205d607cc1",
+      "localSHA256": "a72dffabcf3f2f36747c66c3db97d208efa6f6a16d117046f99ab4205d607cc1"
+    },
+    {
+      "path": "lara/lib/choma/CSBlob.h",
+      "upstreamSHA256": "e61f7869803fb7e2cc8fb1af9e85dd8fc0471a0f67f4fbc9b1924669539e58bd",
+      "localSHA256": "e61f7869803fb7e2cc8fb1af9e85dd8fc0471a0f67f4fbc9b1924669539e58bd"
+    },
+    {
+      "path": "lara/lib/choma/FileStream.h",
+      "upstreamSHA256": "bdc94847c7081239eb781eea72793abf0dfb3bc1f2db85931a2031f0bcf89f61",
+      "localSHA256": "bdc94847c7081239eb781eea72793abf0dfb3bc1f2db85931a2031f0bcf89f61"
+    },
+    {
+      "path": "lara/lib/choma/arm64.h",
+      "upstreamSHA256": "651d78d8caf8777fb11b8dcbbb08bc71add5bedd4cb1ba8181b4b163b3f29e64",
+      "localSHA256": "651d78d8caf8777fb11b8dcbbb08bc71add5bedd4cb1ba8181b4b163b3f29e64"
+    },
+    {
+      "path": "lara/lib/choma/Util.h",
+      "upstreamSHA256": "425361a1ff01d3f54dfa95b3a22163290c0511e9ea3efd8e9efa2a71e9f3dc24",
+      "localSHA256": "425361a1ff01d3f54dfa95b3a22163290c0511e9ea3efd8e9efa2a71e9f3dc24"
+    },
+    {
+      "path": "lara/lib/choma/MachO.h",
+      "upstreamSHA256": "663ead3f8fd43eb41302a3b4084da5636b0fb4a969b0bb4ba23e6c11c9133809",
+      "localSHA256": "663ead3f8fd43eb41302a3b4084da5636b0fb4a969b0bb4ba23e6c11c9133809"
+    },
+    {
+      "path": "lara/lib/choma/MachOByteOrder.h",
+      "upstreamSHA256": "e982bd184ff8e14c82e8344f68cdfe3377568644a38019010e66958d80beea6d",
+      "localSHA256": "e982bd184ff8e14c82e8344f68cdfe3377568644a38019010e66958d80beea6d"
+    },
+    {
+      "path": "lara/lib/choma/dyld_cache_format.h",
+      "upstreamSHA256": "679ca731ff5da6e61c6e0a32dda47d92bada286e29587e8ad0d3102b320427f9",
+      "localSHA256": "679ca731ff5da6e61c6e0a32dda47d92bada286e29587e8ad0d3102b320427f9"
+    },
+    {
+      "path": "lara/lib/choma/CachePatching.h",
+      "upstreamSHA256": "d992b984b2a613a852c72dad9b108a7b6003066f5cac3dfd69d20b9f84d082fe",
+      "localSHA256": "d992b984b2a613a852c72dad9b108a7b6003066f5cac3dfd69d20b9f84d082fe"
+    },
+    {
+      "path": "lara/lib/choma/CodeDirectory.h",
+      "upstreamSHA256": "19b2eedf78f3ad5d611d12e935610c535442c7ec1bdbedcb07c03bfbaf7d340f",
+      "localSHA256": "19b2eedf78f3ad5d611d12e935610c535442c7ec1bdbedcb07c03bfbaf7d340f"
+    },
+    {
+      "path": "lara/lib/choma/Fat.h",
+      "upstreamSHA256": "eaf5d79a84e062501b9ccdbfd905601964b933efdd294c9b690bc30b43d918b6",
+      "localSHA256": "eaf5d79a84e062501b9ccdbfd905601964b933efdd294c9b690bc30b43d918b6"
+    },
+    {
+      "path": "lara/lib/choma/BufferedStream.h",
+      "upstreamSHA256": "59bfbdc1f76c0f049e3c3527681f1424bff3f709f7dd01dd2e03fb9f4abb2ba6",
+      "localSHA256": "59bfbdc1f76c0f049e3c3527681f1424bff3f709f7dd01dd2e03fb9f4abb2ba6"
+    },
+    {
+      "path": "lara/lib/choma/PatchFinder.h",
+      "upstreamSHA256": "bb4d83385b463942abdf7f842583f6c0d17adae56e657b7e1a56389be1a5fcea",
+      "localSHA256": "bb4d83385b463942abdf7f842583f6c0d17adae56e657b7e1a56389be1a5fcea"
+    },
+    {
+      "path": "lara/licenses/LICENSE_XPF.md",
+      "upstreamSHA256": "381eb52c09afd77dd3be504500ef991035b0eb320be4aa6c6d1c6ee4e279e413",
+      "localSHA256": "381eb52c09afd77dd3be504500ef991035b0eb320be4aa6c6d1c6ee4e279e413"
+    },
+    {
+      "path": "lara/licenses/LICENSE_ChOma.md",
+      "upstreamSHA256": "5d5934d4f97e50d4e2abf195c017cdff6f5dee899b50b8f19292b6a41b6bb8b9",
+      "localSHA256": "5d5934d4f97e50d4e2abf195c017cdff6f5dee899b50b8f19292b6a41b6bb8b9"
+    },
+    {
+      "path": "lara/licenses/LICENSE_libgrabkernel2.md",
+      "upstreamSHA256": "51e3c1fa2d85dda5ade7089d278f9ef37ccf101539e8a1170c8577f17b7a52d4",
+      "localSHA256": "51e3c1fa2d85dda5ade7089d278f9ef37ccf101539e8a1170c8577f17b7a52d4"
+    }
+  ]
+}

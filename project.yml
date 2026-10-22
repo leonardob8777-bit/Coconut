@@ -1,0 +1,116 @@
+name: CoconutLab
+options:
+  bundleIdPrefix: dev.leonardobaptiste.coconut
+  deploymentTarget:
+    iOS: "17.0"
+packages:
+  WallpaperLab:
+    path: .
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    CODE_SIGN_STYLE: Automatic
+targets:
+  CoconutLab:
+    type: application
+    platform: iOS
+    sources:
+      - path: App
+        excludes: [BundledCatalog, Info.plist, "*private*"]
+      - path: App/BundledCatalog
+        type: folder
+        buildPhase: resources
+      - path: Labs/OnDeviceAccess/Native
+      - path: Labs/OnDeviceAccess/Vendor/EagleAccess/lara/kexploit
+      - path: Labs/OnDeviceAccess/Vendor/EagleAccess/lara/licenses
+        type: folder
+        buildPhase: resources
+      - path: Labs/OnDeviceAccess/Vendor/EagleAccess/provenance.json
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.leonardobaptiste.coconut.lab
+        ARCHS: arm64e
+        HEADER_SEARCH_PATHS:
+          - $(inherited)
+          - $(SRCROOT)/Labs/OnDeviceAccess/Vendor/EagleAccess/lara/kexploit
+          - $(SRCROOT)/Labs/OnDeviceAccess/Vendor/EagleAccess/lara/kexploit/pe
+          - $(SRCROOT)/Labs/OnDeviceAccess/Vendor/EagleAccess/lara/headers
+          - $(SRCROOT)/Labs/OnDeviceAccess/Vendor/EagleAccess/lara/lib/choma
+        LIBRARY_SEARCH_PATHS: "$(inherited) $(SRCROOT)/Labs/OnDeviceAccess/Vendor/EagleAccess/lara/lib"
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        PRODUCT_NAME: CoconutLab
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Coconut
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_FILE: App/Info.plist
+        TARGETED_DEVICE_FAMILY: "1"
+        MARKETING_VERSION: "0.6.23"
+        CURRENT_PROJECT_VERSION: "33"
+    dependencies:
+      - package: WallpaperLab
+        product: WallpaperPackageManager
+      - package: WallpaperLab
+        product: CompatibilityManager
+      - package: WallpaperLab
+        product: WallpaperInstaller
+      - framework: Labs/OnDeviceAccess/Vendor/EagleAccess/lara/lib/libxpf.dylib
+        embed: true
+        codeSign: true
+      - framework: Labs/OnDeviceAccess/Vendor/EagleAccess/lara/lib/libgrabkernel2.dylib
+        embed: true
+        codeSign: true
+      - sdk: IOSurface.framework
+      - sdk: UIKit.framework
+  InstallerCompileCheck:
+    type: framework
+    platform: iOS
+    sources: [Sources/WallpaperInstaller]
+    dependencies:
+      - package: WallpaperLab
+        product: WallpaperPackageManager
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.leonardobaptiste.coconut.installercheck
+        GENERATE_INFOPLIST_FILE: YES
+  CoconutFileSupportTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [Tests/CoconutFileSupportTests]
+    dependencies:
+      - target: CoconutLab
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.leonardobaptiste.coconut.filesupporttests
+        GENERATE_INFOPLIST_FILE: YES
+  CoconutExperienceTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [Tests/CoconutExperienceTests]
+    dependencies:
+      - target: CoconutLab
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+  CoconutGalleryUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [Tests/CoconutGalleryUITests]
+    dependencies:
+      - target: CoconutLab
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.leonardobaptiste.coconut.gallerytests
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  CoconutLab:
+    build:
+      targets:
+        CoconutLab: all
+    test:
+      targets: [CoconutGalleryUITests, CoconutFileSupportTests, CoconutExperienceTests]
+  InstallerCompileCheck:
+    build:
+      targets:
+        InstallerCompileCheck: all

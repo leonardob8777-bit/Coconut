@@ -1,0 +1,60 @@
+name: CoconutAccessProbe
+options:
+  deploymentTarget:
+    iOS: "17.0"
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    ARCHS: arm64e
+    CODE_SIGN_STYLE: Automatic
+    CLANG_ENABLE_MODULES: YES
+targets:
+  CoconutAccessProbe:
+    type: application
+    platform: iOS
+    sources:
+      - App
+      - Native
+      - Sources/OnDeviceAccessProbeCore
+      - path: Vendor/EagleAccess/lara/kexploit
+      - path: Vendor/EagleAccess/lara/licenses
+        type: folder
+        buildPhase: resources
+      - path: Vendor/EagleAccess/LICENSE
+        buildPhase: resources
+      - path: Vendor/EagleAccess/provenance.json
+        buildPhase: resources
+      - path: COPYING-GPL
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.leonardobaptiste.coconut.accessprobe
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Coconut Access
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        TARGETED_DEVICE_FAMILY: "1"
+        MARKETING_VERSION: "0.1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_OBJC_BRIDGING_HEADER: Native/AccessBridge.h
+        HEADER_SEARCH_PATHS:
+          - $(inherited)
+          - $(SRCROOT)/Vendor/EagleAccess/lara/kexploit
+          - $(SRCROOT)/Vendor/EagleAccess/lara/kexploit/pe
+          - $(SRCROOT)/Vendor/EagleAccess/lara/headers
+          - $(SRCROOT)/Vendor/EagleAccess/lara/lib/choma
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks"
+        LIBRARY_SEARCH_PATHS: "$(inherited) $(SRCROOT)/Vendor/EagleAccess/lara/lib"
+    dependencies:
+      - framework: Vendor/EagleAccess/lara/lib/libxpf.dylib
+        embed: true
+        codeSign: true
+      - framework: Vendor/EagleAccess/lara/lib/libgrabkernel2.dylib
+        embed: true
+        codeSign: true
+      - sdk: IOSurface.framework
+      - sdk: UIKit.framework
+schemes:
+  CoconutAccessProbe:
+    build:
+      targets:
+        CoconutAccessProbe: all

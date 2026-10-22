@@ -3,3 +3,12 @@
 *.jpg
 *.jpeg
 *.png
+
+.build/
+.swiftpm/
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+App/*private*
+*.xcodeproj/

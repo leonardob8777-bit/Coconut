@@ -1,0 +1,17 @@
+name: CoconutCleanRender
+options:
+  deploymentTarget:
+    iOS: "17.0"
+targets:
+  CoconutCleanRender:
+    type: application
+    platform: iOS
+    sources: [main.m]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.leonardobaptiste.coconut.cleanrender
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIStatusBarHidden: YES
+        TARGETED_DEVICE_FAMILY: "1"
+        OTHER_LDFLAGS: "-framework QuartzCore"
