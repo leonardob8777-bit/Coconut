@@ -8,6 +8,10 @@
 
 Animated wallpapers for iPhone · Created by [Leonardo](https://github.com/leonardob8777-bit)
 
+**Compatibility: iOS 17.x · iOS 18.0 – 18.7.4 · iOS 26.0 – 26.1**
+
+Automatic UUID only on iPhone 16 Pro (iOS 18.6.2). Other devices: enter the UUID manually or use TrollStore.
+
 <a href="https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/v0.6.23/Coconut-0.6.23-33.ipa"><img src="docs/brand/download.svg?v=counts-2026-10-22T0650130729100000" alt="Download IPA — 4.17 MB · 1 downloads" width="244"></a><br>
 <a href="https://github.com/leonardob8777-bit/Coconut-Catalog/releases/tag/v0.6.23"><img src="docs/brand/notes.svg" alt="What’s new" width="120"></a>
 <a href="https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/v0.6.23/Coconut-0.6.23-source.zip"><img src="docs/brand/source.svg" alt="Source code" width="120"></a><br>
@@ -54,7 +58,9 @@ The supplied development signature is limited to one registered device and expir
 <details>
 <summary><strong>Compatibility and verification</strong></summary>
 
-The app requires iOS 17.0 or later to launch. Wallpaper installation has narrower device and iOS requirements; the minimum app version is not a promise that every iOS version can apply themes. Automatic UUID discovery remains limited to the documented iPhone 16 Pro / iOS 18.6.2 target. Manual UUID entry is also available.
+Compatibility: iOS 17.x · iOS 18.0 – 18.7.4 · iOS 26.0 – 26.1
+
+Automatic UUID only on iPhone 16 Pro (iOS 18.6.2). Other devices: enter the UUID manually or use TrollStore.
 
 This release does not expand engine compatibility. The exact public IPA was downloaded and its SHA-256 matched the local build. All 152 package/video links were accessible at publication. The 23 portable tests passed; 9 of 33 iOS experience tests still use expectations from the previous catalog and need updating. This build was not newly validated on a physical iPhone during the release review.
 
