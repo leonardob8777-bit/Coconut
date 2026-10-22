@@ -8,9 +8,6 @@
 // in PosterBoard. No reset, bulk cleanup, UIKit, network or kernel exploit.
 // GPL-3.0 text is supplied at repository root in LICENSE.
 import Foundation
-#if os(iOS)
-import Darwin
-#endif
 
 public struct WriteConsent: Sendable {
     public let explicitlyAuthorized: Bool
@@ -62,25 +59,8 @@ public actor ExperimentalPosterBoardWriter {
         let descriptorDirectory = plan.sourceDirectory
         let provider = plan.provider
         let posterBoardContainerUUID = plan.containerUUID
-        if plan.accessRoute == .pocketPoster {
-            guard PosterBoardAccessCoordinator.supportsSavedUUID() else {
-                throw InstallerError.stopped("Esta versión de iOS está fuera del rango de Pocket Poster para la ruta .Trash.")
-            }
-        }
-        if plan.accessRoute == .darkSword {
-            let version = ProcessInfo.processInfo.operatingSystemVersion
-            guard version.majorVersion == 18, version.minorVersion == 6, version.patchVersion == 2 else {
-                throw InstallerError.stopped("La ruta DarkSword integrada está habilitada solo para iOS 18.6.2. Si tienes acceso directo del sistema, vuelve a instalar Coconut desde TrollStore.")
-            }
-            var machineSize = 0
-            guard sysctlbyname("hw.machine", nil, &machineSize, nil, 0) == 0, machineSize > 0 else {
-                throw InstallerError.stopped("No se pudo identificar el dispositivo.")
-            }
-            var machine = [CChar](repeating: 0, count: machineSize)
-            guard sysctlbyname("hw.machine", &machine, &machineSize, nil, 0) == 0,
-                  String(decoding: machine.prefix { $0 != 0 }.map { UInt8(bitPattern: $0) }, as: UTF8.self) == "iPhone17,1" else {
-                throw InstallerError.stopped("La ruta DarkSword integrada está habilitada solo para iPhone 16 Pro.")
-            }
+        if plan.accessRoute != .direct && !PosterBoardAccessCoordinator.supportsSavedUUID() {
+            throw InstallerError.stopped("Esta versión de iOS está fuera del rango de Pocket Poster para la ruta .Trash.")
         }
         guard UUID(uuidString: posterBoardContainerUUID) != nil,
               ["com.apple.WallpaperKit.CollectionsPoster", "com.apple.PhotosUIPrivate.PhotosPosterProvider"].contains(provider) else {

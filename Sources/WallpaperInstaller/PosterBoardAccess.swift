@@ -22,7 +22,7 @@ public enum PosterBoardAccessError: Error, LocalizedError {
     public var errorDescription: String? {
         switch self {
         case .unsupportedDevice:
-            "Este iPhone no tiene acceso directo y su versión no está habilitada para la ruta DarkSword integrada."
+            "Este iPhone no tiene acceso directo y el motor DarkSword no admite su modelo o versión de iOS. Puedes introducir el UUID obtenido con un ordenador."
         case .debuggerAttached:
             "Desconecta Xcode y vuelve a activar el motor."
         case .exploitFailed(let code):

@@ -29,9 +29,9 @@ final class CoconutGalleryUITests: XCTestCase {
         let search = app.searchFields.firstMatch
         XCTAssertTrue(search.waitForExistence(timeout: 5))
         search.tap()
-        search.typeText("polillas\n")
-        XCTAssertTrue(app.buttons["search.preview.polillas"].waitForExistence(timeout: 5))
-        app.buttons["search.preview.polillas"].tap()
+        search.typeText("fr-focus\n")
+        XCTAssertTrue(app.buttons["search.preview.fr-focus"].waitForExistence(timeout: 5))
+        app.buttons["search.preview.fr-focus"].tap()
         XCTAssertTrue(app.buttons["detail.close"].waitForExistence(timeout: 5))
         XCTAssertFalse(app.segmentedControls["detail.previewMode"].exists)
         XCTAssertFalse(app.buttons["detail.playback"].exists)
@@ -104,17 +104,17 @@ final class CoconutGalleryUITests: XCTestCase {
         app.launchEnvironment["COCONUT_CATALOG_URL"] = "https://127.0.0.1:1/catalog.json"
         app.launchArguments += ["-Coconut.language", "en", "-Coconut.appearance", "light"]
         launch(app)
-        XCTAssertTrue(app.buttons["catalog.featured.polillas"].waitForExistence(timeout: 20))
+        XCTAssertTrue(firstCard(app).waitForExistence(timeout: 20))
         for _ in 0..<3 where !app.staticTexts["catalog.resultCount"].exists { app.swipeUp() }
-        XCTAssertEqual(app.staticTexts["catalog.resultCount"].label, "194 wallpapers")
+        XCTAssertEqual(app.staticTexts["catalog.resultCount"].label, "76 wallpapers")
         app.buttons["Search wallpapers"].tap()
         let search = app.searchFields.firstMatch
         XCTAssertTrue(search.waitForExistence(timeout: 5))
         search.tap()
-        search.typeText("es-calle\n")
-        XCTAssertTrue(app.buttons["search.preview.es-calle"].waitForExistence(timeout: 5))
+        search.typeText("Thunder\n")
+        XCTAssertTrue(app.buttons["search.preview.kn-thunder"].waitForExistence(timeout: 5))
         capture(app, "47-gyro-search")
-        app.buttons["search.preview.es-calle"].tap()
+        app.buttons["search.preview.kn-thunder"].tap()
         XCTAssertTrue(app.buttons["detail.save"].waitForExistence(timeout: 5))
         if app.buttons["detail.save"].isEnabled { app.buttons["detail.save"].tap() }
         expectation(for: NSPredicate(format: "label CONTAINS[c] %@", "Saved"), evaluatedWith: app.buttons["detail.save"])
@@ -130,17 +130,17 @@ final class CoconutGalleryUITests: XCTestCase {
         app.launchEnvironment["COCONUT_CATALOG_URL"] = "https://127.0.0.1:1/catalog.json"
         app.launchArguments += ["-Coconut.language", "en", "-Coconut.appearance", "light"]
         launch(app)
-        XCTAssertTrue(app.buttons["catalog.featured.polillas"].waitForExistence(timeout: 20))
+        XCTAssertTrue(firstCard(app).waitForExistence(timeout: 20))
         for _ in 0..<3 where !app.staticTexts["catalog.resultCount"].exists { app.swipeUp() }
-        XCTAssertEqual(app.staticTexts["catalog.resultCount"].label, "194 wallpapers")
+        XCTAssertEqual(app.staticTexts["catalog.resultCount"].label, "76 wallpapers")
         app.buttons["Search wallpapers"].tap()
         let search = app.searchFields.firstMatch
         XCTAssertTrue(search.waitForExistence(timeout: 5))
         search.tap()
-        search.typeText("Tape Figure\n")
-        XCTAssertTrue(app.buttons["search.preview.n140"].waitForExistence(timeout: 5))
+        search.typeText("Discipline\n")
+        XCTAssertTrue(app.buttons["search.preview.fr-discipline"].waitForExistence(timeout: 5))
         capture(app, "43-expanded-collection-search")
-        app.buttons["search.preview.n140"].tap()
+        app.buttons["search.preview.fr-discipline"].tap()
         XCTAssertTrue(app.buttons["detail.save"].waitForExistence(timeout: 5))
         if app.buttons["detail.save"].isEnabled { app.buttons["detail.save"].tap() }
         expectation(for: NSPredicate(format: "label CONTAINS[c] %@", "Saved"), evaluatedWith: app.buttons["detail.save"])
@@ -150,50 +150,44 @@ final class CoconutGalleryUITests: XCTestCase {
     }
 
     @MainActor
-    func testGalleryPreviewFavoritesAndApplyReviewWithoutRunningInstaller() throws {
+    func testGalleryPreviewFavoritesAndSimulatorApplyWithoutRunningInstaller() throws {
         continueAfterFailure = false
         let app = XCUIApplication()
         app.launchEnvironment["COCONUT_CATALOG_URL"] = "https://127.0.0.1:1/catalog.json"
         app.launchArguments += ["-Coconut.appearance", "light"]
         app.launchArguments += ["-Coconut.language", "en"]
         launch(app)
-        XCTAssertTrue(app.buttons["catalog.featured.polillas"].waitForExistence(timeout: 15))
+        XCTAssertTrue(firstCard(app).waitForExistence(timeout: 15))
         capture(app, "01-explorar")
-        app.buttons["catalog.featured.polillas"].tap()
+        firstCard(app).tap()
         XCTAssertTrue(app.buttons["detail.close"].waitForExistence(timeout: 5))
         capture(app, "02-vista-previa")
-        let favorite = app.buttons["favorite.polillas"]
+        let favorite = app.buttons["favorite.fr-focus"]
         if favorite.label == "Remove from favorites" { favorite.tap() }
         favorite.tap()
         XCTAssertTrue(app.buttons["detail.close"].waitForExistence(timeout: 5), app.debugDescription)
         XCTAssertEqual(favorite.label, "Remove from favorites")
-        app.buttons["detail.clock"].tap()
-        capture(app, "03-referencia-bloqueo")
-        app.segmentedControls["detail.previewMode"].buttons["Motion"].tap()
-        capture(app, "04-movimiento")
+        app.buttons["detail.expand"].tap()
+        XCTAssertTrue(app.buttons["Close full screen"].waitForExistence(timeout: 5))
+        capture(app, "03-vista-completa")
+        app.buttons["Close full screen"].tap()
         if app.buttons["detail.save"].isEnabled { app.buttons["detail.save"].tap() }
         XCTAssertTrue(app.buttons["detail.save"].waitForExistence(timeout: 10))
         let saved = NSPredicate(format: "label CONTAINS[c] %@", "Saved")
         expectation(for: saved, evaluatedWith: app.buttons["detail.save"])
         waitForExpectations(timeout: 15)
         app.buttons["detail.use"].tap()
-        XCTAssertTrue(app.buttons["apply.confirm"].waitForExistence(timeout: 10))
-        XCTAssertTrue(app.buttons["apply.configure"].exists)
-        XCTAssertFalse(app.buttons["engine.activate"].exists)
-        XCTAssertFalse(app.buttons["apply.confirm"].isEnabled, "Simulator review must never invoke the installer")
-        capture(app, "05-revision-aplicar")
-        app.buttons["apply.close"].tap()
+        XCTAssertTrue(app.alerts.firstMatch.waitForExistence(timeout: 15))
+        XCTAssertFalse(app.buttons["apply.confirm"].exists, "Simulator must never invoke the installer")
+        capture(app, "05-aplicar-simulador")
+        app.alerts.buttons["Cancel"].tap()
         app.buttons["detail.close"].tap()
         app.tabBars.buttons["My collection"].tap()
-        XCTAssertTrue(app.buttons["catalog.preview.polillas"].waitForExistence(timeout: 5))
+        XCTAssertTrue(firstCard(app).waitForExistence(timeout: 5))
         capture(app, "06-mi-coleccion")
         app.segmentedControls.buttons["Favorites"].tap()
-        XCTAssertTrue(app.buttons["catalog.preview.polillas"].exists)
-        app.tabBars.buttons["Explore"].tap()
-        app.buttons["catalog.filter.nature"].tap()
-        XCTAssertTrue(app.buttons["catalog.preview.blanca"].waitForExistence(timeout: 5))
-        XCTAssertFalse(app.buttons["catalog.preview.batman"].exists)
-        capture(app, "07-coleccion-naturaleza")
+        XCTAssertTrue(app.buttons["catalog.preview.fr-focus"].exists)
+        capture(app, "07-coleccion-favoritos")
     }
 
     @MainActor
@@ -214,12 +208,12 @@ final class CoconutGalleryUITests: XCTestCase {
         let search = app.searchFields.firstMatch
         XCTAssertTrue(search.waitForExistence(timeout: 5))
         search.tap()
-        search.typeText("Moths\n")
-        XCTAssertTrue(app.buttons["search.preview.polillas"].waitForExistence(timeout: 5))
+        search.typeText("Focus\n")
+        XCTAssertTrue(app.buttons["search.preview.fr-focus"].waitForExistence(timeout: 5))
         XCTAssertTrue(app.staticTexts["1 result"].waitForExistence(timeout: 5))
-        XCTAssertFalse(app.buttons["search.preview.batman"].exists)
+        XCTAssertFalse(app.buttons["search.preview.pr-batman"].exists)
         capture(app, "10-busqueda")
-        app.buttons["search.preview.polillas"].tap()
+        app.buttons["search.preview.fr-focus"].tap()
         XCTAssertTrue(app.buttons["detail.close"].waitForExistence(timeout: 5))
         capture(app, "11-detalle-oscuro")
         app.buttons["detail.expand"].tap()
@@ -244,8 +238,8 @@ final class CoconutGalleryUITests: XCTestCase {
         app.launchArguments += ["-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryAccessibilityXXXL"]
         app.launchArguments += ["-Coconut.language", "en"]
         launch(app)
-        XCTAssertTrue(app.buttons["catalog.featured.polillas"].waitForExistence(timeout: 15))
-        app.buttons["catalog.featured.polillas"].tap()
+        XCTAssertTrue(firstCard(app).waitForExistence(timeout: 15))
+        firstCard(app).tap()
         XCTAssertTrue(app.buttons["detail.use"].waitForExistence(timeout: 5))
         XCTAssertTrue(app.buttons["detail.use"].isHittable)
         XCTAssertTrue(app.buttons["detail.close"].isHittable)
@@ -290,8 +284,8 @@ final class CoconutGalleryUITests: XCTestCase {
         app.launchEnvironment["COCONUT_CATALOG_URL"] = "https://127.0.0.1:1/catalog.json"
         app.launchArguments += ["-Coconut.language", "en", "-Coconut.appearance", "light"]
         launch(app)
-        XCTAssertTrue(app.buttons["catalog.featured.polillas"].waitForExistence(timeout: 15))
-        app.buttons["catalog.featured.polillas"].tap()
+        XCTAssertTrue(firstCard(app).waitForExistence(timeout: 15))
+        firstCard(app).tap()
         if app.buttons["detail.save"].isEnabled { app.buttons["detail.save"].tap() }
         let saved = NSPredicate(format: "label CONTAINS[c] %@", "Saved")
         expectation(for: saved, evaluatedWith: app.buttons["detail.save"])
@@ -305,7 +299,6 @@ final class CoconutGalleryUITests: XCTestCase {
         app.navigationBars["Diagnostics"].buttons["BackButton"].tap()
         XCTAssertTrue(app.buttons["info.close"].waitForExistence(timeout: 5))
         app.buttons["info.close"].tap()
-        app.buttons["detail.clock"].tap()
         app.buttons["detail.expand"].tap()
         XCTAssertTrue(app.buttons["Close full screen"].waitForExistence(timeout: 5))
         capture(app, "18-full-screen-clock")
@@ -317,51 +310,16 @@ final class CoconutGalleryUITests: XCTestCase {
         let search = app.searchFields.firstMatch
         XCTAssertTrue(search.waitForExistence(timeout: 5))
         search.tap()
-        search.typeText("Moths\n")
-        XCTAssertTrue(app.buttons["catalog.preview.polillas"].waitForExistence(timeout: 5))
+        search.typeText("Focus\n")
+        XCTAssertTrue(firstCard(app).waitForExistence(timeout: 5))
         capture(app, "19-library-search")
         search.tap()
         search.buttons.firstMatch.tap()
         search.typeText("zzzz-no-wallpaper\n")
         XCTAssertTrue(app.buttons["library.clearSearch"].waitForExistence(timeout: 5))
-        XCTAssertFalse(app.buttons["catalog.preview.polillas"].exists)
+        XCTAssertFalse(app.buttons["catalog.preview.fr-focus"].exists)
         app.buttons["library.clearSearch"].tap()
-        XCTAssertTrue(app.buttons["catalog.preview.polillas"].waitForExistence(timeout: 5))
-    }
-
-    @MainActor
-    func testManualPlaybackControlsReflectActualPlayerState() throws {
-        continueAfterFailure = false
-        let app = XCUIApplication()
-        app.launchEnvironment["COCONUT_CATALOG_URL"] = "https://127.0.0.1:1/catalog.json"
-        app.launchArguments += ["-Coconut.language", "en", "-Coconut.appearance", "light", "-Coconut.previewAutoplay", "NO"]
-        launch(app)
-        XCTAssertTrue(app.buttons["catalog.featured.polillas"].waitForExistence(timeout: 15))
-        app.buttons["catalog.featured.polillas"].tap()
-        app.segmentedControls["detail.previewMode"].buttons["Motion"].tap()
-        let playback = app.buttons["detail.playback"]
-        XCTAssertTrue(playback.waitForExistence(timeout: 5))
-        XCTAssertEqual(playback.label, "Play video")
-        let video = app.descendants(matching: .any).matching(identifier: "preview.video").firstMatch
-        XCTAssertTrue(video.waitForExistence(timeout: 5), app.debugDescription)
-        playback.tap()
-        expectation(for: NSPredicate(format: "value == %@", "Playing"), evaluatedWith: video)
-        waitForExpectations(timeout: 10)
-        capture(app, "20-video-playing")
-        playback.tap()
-        expectation(for: NSPredicate(format: "value == %@", "Paused"), evaluatedWith: video)
-        waitForExpectations(timeout: 5)
-        XCTAssertEqual(playback.label, "Play video")
-        XCTAssertTrue(video.frame.contains(app.buttons["detail.expand"].frame), "Expand must stay inside the artwork bounds")
-        capture(app, "21-video-paused")
-        app.buttons["detail.expand"].tap()
-        XCTAssertTrue(app.buttons["immersive.playback"].waitForExistence(timeout: 5))
-        XCTAssertEqual(app.buttons["immersive.playback"].label, "Play video")
-        app.buttons["immersive.playback"].tap()
-        XCTAssertEqual(app.buttons["immersive.playback"].label, "Pause video")
-        capture(app, "22-full-screen-playback")
-        app.buttons["Close full screen"].tap()
-        XCTAssertEqual(app.buttons["detail.playback"].label, "Pause video")
+        XCTAssertTrue(firstCard(app).waitForExistence(timeout: 5))
     }
 
     @MainActor
@@ -371,10 +329,12 @@ final class CoconutGalleryUITests: XCTestCase {
         app.launchEnvironment["COCONUT_CATALOG_URL"] = "https://127.0.0.1:1/catalog.json"
         app.launchArguments += ["-Coconut.language", "en", "-Coconut.appearance", "light", "-Coconut.catalogSort", "curated"]
         launch(app)
-        XCTAssertTrue(app.buttons["catalog.compare"].waitForExistence(timeout: 15))
-        app.buttons["catalog.compare"].tap()
+        XCTAssertTrue(firstCard(app).waitForExistence(timeout: 15))
+        firstCard(app).tap()
+        app.buttons["detail.more"].tap()
+        app.buttons["detail.compare"].tap()
         XCTAssertTrue(app.buttons["compare.first.choose"].waitForExistence(timeout: 5))
-        XCTAssertTrue(app.buttons["compare.first.choose"].label.contains("Moths"))
+        XCTAssertTrue(app.buttons["compare.first.choose"].label.contains("Focus"))
         let first = app.descendants(matching: .any).matching(identifier: "compare.first.artwork").firstMatch
         let second = app.descendants(matching: .any).matching(identifier: "compare.second.artwork").firstMatch
         XCTAssertTrue(first.exists && second.exists)
@@ -384,13 +344,14 @@ final class CoconutGalleryUITests: XCTestCase {
         XCTAssertEqual(first.frame.height, second.frame.height, accuracy: 1)
         capture(app, "23-compare-wallpapers")
         app.buttons["compare.swap"].tap()
-        XCTAssertTrue(app.buttons["compare.second.choose"].label.contains("Moths"))
+        XCTAssertTrue(app.buttons["compare.second.choose"].label.contains("Focus"))
         app.buttons["compare.second.choose"].tap()
-        app.buttons["compare.second.option.blanca"].tap()
-        XCTAssertTrue(app.buttons["compare.second.choose"].label.contains("White"))
+        app.buttons["compare.second.option.fr-discipline"].tap()
+        XCTAssertTrue(app.buttons["compare.second.choose"].label.contains("Discipline"))
         capture(app, "24-compare-chosen-theme")
         app.buttons["compare.second.open"].tap()
-        XCTAssertTrue(app.navigationBars["White"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["detail.close"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["Discipline"].exists)
         app.buttons["detail.close"].tap()
         app.buttons["compare.close"].tap()
         XCTAssertTrue(app.tabBars.buttons["Explore"].isHittable)
@@ -403,19 +364,19 @@ final class CoconutGalleryUITests: XCTestCase {
         app.launchEnvironment["COCONUT_CATALOG_URL"] = "https://127.0.0.1:1/catalog.json"
         app.launchArguments += ["-Coconut.language", "en", "-Coconut.appearance", "light", "-Coconut.catalogSort", "curated"]
         launch(app)
-        XCTAssertTrue(app.buttons["catalog.featured.polillas"].waitForExistence(timeout: 15))
-        app.buttons["catalog.featured.polillas"].tap()
+        XCTAssertTrue(firstCard(app).waitForExistence(timeout: 15))
+        firstCard(app).tap()
         if app.buttons["detail.save"].isEnabled { app.buttons["detail.save"].tap() }
         expectation(for: NSPredicate(format: "label CONTAINS[c] %@", "Saved"), evaluatedWith: app.buttons["detail.save"])
         waitForExpectations(timeout: 15)
         app.buttons["detail.close"].tap()
         app.buttons["Search wallpapers"].tap()
-        XCTAssertTrue(app.buttons["search.collection.nature"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["search.collection.art"].waitForExistence(timeout: 5))
         if app.buttons["search.clearHistory"].exists { app.buttons["search.clearHistory"].tap() }
         capture(app, "25-search-suggestions")
-        app.buttons["search.collection.nature"].tap()
-        XCTAssertTrue(app.buttons["search.preview.blanca"].waitForExistence(timeout: 5))
-        app.buttons["search.preview.blanca"].tap()
+        app.buttons["search.collection.art"].tap()
+        XCTAssertTrue(app.buttons["search.preview.fr-discipline"].waitForExistence(timeout: 5))
+        app.buttons["search.preview.fr-discipline"].tap()
         XCTAssertTrue(app.buttons["detail.close"].waitForExistence(timeout: 5))
         app.buttons["detail.close"].tap()
         if app.buttons["Close search"].exists { app.buttons["Close search"].tap() }
@@ -424,7 +385,7 @@ final class CoconutGalleryUITests: XCTestCase {
             if app.buttons["Close search"].waitForExistence(timeout: 3) { app.buttons["Close search"].tap() }
         }
         app.buttons["Search wallpapers"].tap()
-        XCTAssertTrue(app.buttons["search.recent.Nature"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["search.recent.Art"].waitForExistence(timeout: 5))
         capture(app, "26-recent-search")
         app.buttons["Close search"].tap()
         app.swipeUp()
@@ -441,10 +402,10 @@ final class CoconutGalleryUITests: XCTestCase {
         XCTAssertTrue(hideSaved.waitForExistence(timeout: 5))
         hideSaved.tap()
         XCTAssertTrue(app.buttons["catalog.resetFilters"].waitForExistence(timeout: 5))
-        XCTAssertFalse(app.buttons["catalog.preview.polillas"].exists)
+        XCTAssertFalse(app.buttons["catalog.preview.fr-focus"].exists)
         capture(app, "27-filter-unsaved")
         app.buttons["catalog.resetFilters"].tap()
-        XCTAssertTrue(app.buttons["catalog.preview.polillas"].waitForExistence(timeout: 5))
+        XCTAssertTrue(firstCard(app).waitForExistence(timeout: 5))
     }
 
     @MainActor
@@ -455,8 +416,10 @@ final class CoconutGalleryUITests: XCTestCase {
         app.launchArguments += ["-Coconut.language", "es", "-Coconut.appearance", "light", "-Coconut.catalogSort", "curated",
                                 "-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryAccessibilityXXXL"]
         launch(app)
-        XCTAssertTrue(app.buttons["catalog.compare"].waitForExistence(timeout: 15))
-        app.buttons["catalog.compare"].tap()
+        XCTAssertTrue(firstCard(app).waitForExistence(timeout: 15))
+        firstCard(app).tap()
+        app.buttons["detail.more"].tap()
+        app.buttons["detail.compare"].tap()
         XCTAssertTrue(app.buttons["compare.first.choose"].waitForExistence(timeout: 5))
         XCTAssertTrue(app.buttons["compare.first.choose"].isHittable)
         XCTAssertTrue(app.buttons["compare.close"].isHittable)
@@ -465,7 +428,7 @@ final class CoconutGalleryUITests: XCTestCase {
         app.buttons["compare.first.open"].tap()
         XCTAssertTrue(app.buttons["detail.use"].waitForExistence(timeout: 5))
         XCTAssertTrue(app.buttons["detail.use"].isHittable)
-        XCTAssertEqual(app.buttons["detail.use"].label, "Usar fondo")
+        XCTAssertEqual(app.buttons["detail.use"].label, "Aplicar")
         app.buttons["detail.close"].tap()
         app.buttons["compare.close"].tap()
     }
@@ -478,15 +441,12 @@ final class CoconutGalleryUITests: XCTestCase {
         app.launchEnvironment["COCONUT_PREVIEW_VIDEO_URL"] = "file:///Coconut-QA-missing-reference.mp4"
         app.launchArguments += ["-Coconut.language", "en", "-Coconut.appearance", "light", "-Coconut.previewAutoplay", "YES"]
         launch(app)
-        XCTAssertTrue(app.buttons["catalog.featured.polillas"].waitForExistence(timeout: 15))
-        app.buttons["catalog.featured.polillas"].tap()
-        app.segmentedControls["detail.previewMode"].buttons["Motion"].tap()
+        XCTAssertTrue(firstCard(app).waitForExistence(timeout: 15))
+        firstCard(app).tap()
         let retry = app.buttons["preview.video.retry"]
         XCTAssertTrue(retry.waitForExistence(timeout: 12))
         XCTAssertTrue(retry.isHittable)
         XCTAssertTrue(app.staticTexts["Video unavailable"].firstMatch.exists)
-        XCTAssertEqual(app.buttons["detail.playback"].label, "Video unavailable")
-        XCTAssertFalse(app.buttons["detail.playback"].isEnabled)
         XCTAssertTrue(app.buttons["detail.use"].isHittable)
         capture(app, "29-video-unavailable")
         retry.tap()
@@ -507,46 +467,10 @@ final class CoconutGalleryUITests: XCTestCase {
         expectation(for: visibleRetry, evaluatedWith: app)
         waitForExpectations(timeout: 12)
         app.buttons["Close full screen"].tap()
-        app.segmentedControls["detail.previewMode"].buttons["Image"].tap()
-        XCTAssertFalse(retry.exists)
         capture(app, "31-artwork-after-video-failure")
         app.buttons["detail.use"].tap()
-        XCTAssertTrue(app.buttons["apply.confirm"].waitForExistence(timeout: 15))
-        XCTAssertFalse(app.buttons["apply.confirm"].isEnabled)
-        XCTAssertTrue(app.buttons["apply.close"].isHittable)
-    }
-
-    @MainActor
-    func testPlaybackIntentSurvivesBackgroundReturn() throws {
-        continueAfterFailure = false
-        let app = XCUIApplication()
-        app.launchEnvironment["COCONUT_CATALOG_URL"] = "https://127.0.0.1:1/catalog.json"
-        app.launchArguments += ["-Coconut.language", "en", "-Coconut.appearance", "light", "-Coconut.previewAutoplay", "NO"]
-        launch(app)
-        XCTAssertTrue(app.buttons["catalog.featured.polillas"].waitForExistence(timeout: 15))
-        app.buttons["catalog.featured.polillas"].tap()
-        app.segmentedControls["detail.previewMode"].buttons["Motion"].tap()
-        let video = app.descendants(matching: .any).matching(identifier: "preview.video").firstMatch
-        XCTAssertTrue(video.waitForExistence(timeout: 8))
-        expectation(for: NSPredicate(format: "value == %@", "Paused"), evaluatedWith: video)
-        waitForExpectations(timeout: 10)
-        XCUIDevice.shared.press(.home)
-        app.activate()
-        XCTAssertTrue(app.buttons["detail.playback"].waitForExistence(timeout: 8))
-        XCTAssertEqual(app.buttons["detail.playback"].label, "Play video")
-        expectation(for: NSPredicate(format: "value == %@", "Paused"), evaluatedWith: video)
-        waitForExpectations(timeout: 10)
-        app.buttons["detail.playback"].tap()
-        expectation(for: NSPredicate(format: "value == %@", "Playing"), evaluatedWith: video)
-        waitForExpectations(timeout: 10)
-        XCUIDevice.shared.press(.home)
-        app.activate()
-        expectation(for: NSPredicate(format: "value == %@", "Playing"), evaluatedWith: video)
-        waitForExpectations(timeout: 10)
-        app.buttons["detail.playback"].tap()
-        expectation(for: NSPredicate(format: "value == %@", "Paused"), evaluatedWith: video)
-        waitForExpectations(timeout: 10)
-        capture(app, "32-paused-after-background-return")
+        XCTAssertTrue(app.alerts.firstMatch.waitForExistence(timeout: 15))
+        XCTAssertFalse(app.buttons["apply.confirm"].exists)
     }
 
     @MainActor
@@ -567,18 +491,18 @@ final class CoconutGalleryUITests: XCTestCase {
         app.launchArguments += ["-Coconut.language", spanish ? "es" : "en", "-Coconut.appearance", spanish ? "dark" : "light"]
         if spanish { app.launchArguments += ["-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryAccessibilityXXXL"] }
         launch(app)
-        XCTAssertTrue(app.buttons["catalog.featured.polillas"].waitForExistence(timeout: 15))
-        app.buttons["catalog.featured.polillas"].tap()
+        XCTAssertTrue(firstCard(app).waitForExistence(timeout: 15))
+        firstCard(app).tap()
         if app.buttons["detail.save"].isEnabled { app.buttons["detail.save"].tap() }
         expectation(for: NSPredicate(format: "enabled == NO"), evaluatedWith: app.buttons["detail.save"])
         waitForExpectations(timeout: 15)
-        let favorite = app.buttons["favorite.polillas"]
+        let favorite = app.buttons["favorite.fr-focus"]
         if favorite.label == (spanish ? "Añadir a favoritos" : "Add to favorites") { favorite.tap() }
         app.buttons["detail.close"].tap()
         app.tabBars.buttons[spanish ? "Mi colección" : "My collection"].tap()
         app.segmentedControls["library.filter"].buttons[spanish ? "Favoritos" : "Favorites"].tap()
         XCTAssertTrue(app.staticTexts["library.summary"].label.contains(spanish ? "favorito" : "favorite"))
-        let card = app.buttons["catalog.preview.polillas"]
+        let card = app.buttons["catalog.preview.fr-focus"]
         if !card.isHittable { app.swipeUp() }
         XCTAssertTrue(card.waitForExistence(timeout: 5))
         card.press(forDuration: 1)
@@ -594,9 +518,9 @@ final class CoconutGalleryUITests: XCTestCase {
             app.navigationBars["Diagnostics"].buttons["BackButton"].tap()
         }
         app.buttons["package.use"].tap()
-        XCTAssertTrue(app.buttons["apply.close"].waitForExistence(timeout: 5))
-        XCTAssertFalse(app.buttons["apply.confirm"].isEnabled)
-        app.buttons["apply.close"].tap()
+        XCTAssertTrue(app.alerts.firstMatch.waitForExistence(timeout: 5))
+        XCTAssertFalse(app.buttons["apply.confirm"].exists)
+        app.alerts.buttons[spanish ? "Cerrar" : "Close"].tap()
         XCTAssertTrue(app.buttons["package.close"].waitForExistence(timeout: 5))
         app.buttons["package.close"].tap()
         XCTAssertTrue(app.tabBars.buttons[spanish ? "Mi colección" : "My collection"].isHittable)
@@ -614,13 +538,13 @@ final class CoconutGalleryUITests: XCTestCase {
         let search = app.searchFields.firstMatch
         XCTAssertTrue(search.waitForExistence(timeout: 5))
         search.tap()
-        search.typeText("Moths\n")
-        let favorite = app.buttons["search.favorite.polillas"]
+        search.typeText("Focus\n")
+        let favorite = app.buttons["search.favorite.fr-focus"]
         XCTAssertTrue(favorite.waitForExistence(timeout: 5))
-        if favorite.label == "Remove Moths from favorites" { favorite.tap() }
+        if favorite.label == "Remove Focus from favorites" { favorite.tap() }
         favorite.tap()
-        XCTAssertEqual(favorite.label, "Remove Moths from favorites")
-        XCTAssertTrue(app.buttons["search.preview.polillas"].exists)
+        XCTAssertEqual(favorite.label, "Remove Focus from favorites")
+        XCTAssertTrue(app.buttons["search.preview.fr-focus"].exists)
         XCTAssertFalse(app.buttons["detail.close"].exists)
         capture(app, "35-quick-favorite-search")
         if app.buttons["Close search"].exists { app.buttons["Close search"].tap() }
@@ -630,12 +554,12 @@ final class CoconutGalleryUITests: XCTestCase {
         }
         app.tabBars.buttons["My collection"].tap()
         app.segmentedControls["library.filter"].buttons["Favorites"].tap()
-        let libraryFavorite = app.buttons["catalog.favorite.polillas"]
+        let libraryFavorite = app.buttons["catalog.favorite.fr-focus"]
         if !libraryFavorite.isHittable { app.swipeUp() }
         XCTAssertTrue(libraryFavorite.waitForExistence(timeout: 5))
-        XCTAssertEqual(libraryFavorite.label, "Remove Moths from favorites")
+        XCTAssertEqual(libraryFavorite.label, "Remove Focus from favorites")
         libraryFavorite.tap()
-        XCTAssertFalse(app.buttons["catalog.preview.polillas"].exists)
+        XCTAssertFalse(app.buttons["catalog.preview.fr-focus"].exists)
     }
 
     @MainActor
@@ -705,7 +629,7 @@ final class CoconutGalleryUITests: XCTestCase {
         app.launchArguments += ["-Coconut.language", spanish ? "es" : "en", "-Coconut.appearance", spanish ? "dark" : "light"]
         if spanish { app.launchArguments += ["-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryAccessibilityXXXL"] }
         launch(app)
-        XCTAssertTrue(app.buttons["catalog.featured.polillas"].waitForExistence(timeout: 15))
+        XCTAssertTrue(firstCard(app).waitForExistence(timeout: 15))
         app.buttons["catalog.settings"].tap()
         let refresh = app.buttons["settings.refreshCollection"]
         for _ in 0..<6 {
@@ -723,8 +647,8 @@ final class CoconutGalleryUITests: XCTestCase {
         waitForExpectations(timeout: 12)
         capture(app, spanish ? "42-collection-updates-large-spanish" : "41-collection-updates")
         app.navigationBars.buttons.element(boundBy: 0).tap()
-        XCTAssertTrue(app.buttons["catalog.featured.polillas"].waitForExistence(timeout: 5))
-        app.buttons["catalog.featured.polillas"].tap()
+        XCTAssertTrue(firstCard(app).waitForExistence(timeout: 5))
+        firstCard(app).tap()
         XCTAssertTrue(app.buttons["detail.use"].waitForExistence(timeout: 5))
         XCTAssertTrue(app.buttons["detail.use"].isEnabled)
     }
@@ -737,8 +661,8 @@ final class CoconutGalleryUITests: XCTestCase {
         app.launchEnvironment["COCONUT_PREVIEW_ARTWORK_URL"] = "file:///Coconut-QA-missing-artwork.jpg"
         app.launchArguments += ["-Coconut.language", "en", "-Coconut.appearance", "light"]
         launch(app)
-        XCTAssertTrue(app.buttons["catalog.featured.polillas"].waitForExistence(timeout: 15))
-        app.buttons["catalog.featured.polillas"].tap()
+        XCTAssertTrue(firstCard(app).waitForExistence(timeout: 15))
+        firstCard(app).tap()
         let retry = app.buttons["preview.artwork.retry"]
         XCTAssertTrue(retry.waitForExistence(timeout: 8))
         XCTAssertTrue(retry.isHittable)
@@ -755,7 +679,7 @@ final class CoconutGalleryUITests: XCTestCase {
         app.buttons["Close full screen"].tap()
         XCTAssertTrue(app.buttons["detail.use"].isHittable)
         app.buttons["detail.close"].tap()
-        XCTAssertTrue(app.buttons["catalog.featured.polillas"].isHittable)
+        XCTAssertTrue(firstCard(app).isHittable)
     }
 
     @MainActor
@@ -767,8 +691,8 @@ final class CoconutGalleryUITests: XCTestCase {
         app.launchArguments += ["-Coconut.language", "es", "-Coconut.appearance", "dark",
                                 "-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryAccessibilityXXXL"]
         launch(app)
-        XCTAssertTrue(app.buttons["catalog.featured.polillas"].waitForExistence(timeout: 15))
-        app.buttons["catalog.featured.polillas"].tap()
+        XCTAssertTrue(firstCard(app).waitForExistence(timeout: 15))
+        firstCard(app).tap()
         let retry = app.buttons["preview.artwork.retry"]
         XCTAssertTrue(retry.waitForExistence(timeout: 8))
         XCTAssertTrue(retry.isHittable)
@@ -780,6 +704,13 @@ final class CoconutGalleryUITests: XCTestCase {
         XCTAssertTrue(retry.waitForExistence(timeout: 8))
         XCTAssertTrue(app.buttons["detail.use"].isHittable)
         capture(app, "40-artwork-retry-large-spanish")
+    }
+
+    @MainActor
+    private func firstCard(_ app: XCUIApplication) -> XCUIElement {
+        let card = app.buttons["catalog.preview.fr-focus"]
+        for _ in 0..<5 where !card.isHittable { app.swipeUp() }
+        return card
     }
 
     @MainActor

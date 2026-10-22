@@ -28,16 +28,6 @@ enum DeviceInfo {
 
     static var systemVersion: String { UIDevice.current.systemVersion }
 
-    static var supportsAutomaticUUID: Bool {
-        guard !isSimulator, productType == "iPhone17,1", systemVersion == "18.6.2" else { return false }
-        var size = 0
-        guard sysctlbyname("kern.osversion", nil, &size, nil, 0) == 0, size > 0 else { return false }
-        var buffer = [CChar](repeating: 0, count: size)
-        guard sysctlbyname("kern.osversion", &buffer, &size, nil, 0) == 0 else { return false }
-        return String(decoding: buffer.prefix { $0 != 0 }.map { UInt8(bitPattern: $0) }, as: UTF8.self) == "22G100"
-    }
-
-
     /// Current iPhone's native portrait canvas in points. This describes layout
     /// sizing only; it is not an installation compatibility signal.
     static var logicalScreenClass: String? {

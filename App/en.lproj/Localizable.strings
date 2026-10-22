@@ -47,7 +47,7 @@
 "Cerrar vista completa" = "Close full screen";
 "Cerrar vista previa" = "Close preview";
 "Claro" = "Light";
-"Coconut · AGPL-3.0 por la integración de Eagle/Lara. El inspector propio y el escritor adaptado de Pocket Poster conservan GPL-3.0; ZIPFoundation se distribuye bajo MIT. La ruta de PosterBoard es experimental y está limitada al iPhone 16 Pro con iOS 18.6.2." = "Coconut · AGPL-3.0 for the Eagle/Lara integration. The original inspector and adapted Pocket Poster writer retain GPL-3.0; ZIPFoundation uses MIT. The integrated DarkSword route is experimental and limited to iPhone 16 Pro with iOS 18.6.2.";
+"Coconut · AGPL-3.0 por la integración de Eagle/Lara. El inspector propio y el escritor adaptado de Pocket Poster conservan GPL-3.0; ZIPFoundation se distribuye bajo MIT. La ruta de PosterBoard es experimental y depende de la compatibilidad del motor y de iOS." = "Coconut · AGPL-3.0 for the Eagle/Lara integration. The original inspector and adapted Pocket Poster writer retain GPL-3.0; ZIPFoundation uses MIT. The PosterBoard route is experimental and depends on engine and iOS compatibility.";
 "Coconut está preparando el tema para la galería de fondos de iOS." = "Coconut is preparing the wallpaper for the iOS gallery.";
 "Coconut verificó el archivo y su estructura. Puedes compartir el .tendies desde el iPhone." = "Coconut verified the file and its structure. You can share the .tendies from your iPhone.";
 "Colección" = "Collection";
@@ -89,10 +89,10 @@
 "Escalera" = "Stairway";
 "Escáner" = "Scanner";
 "Espera a que termine la importación actual." = "Wait for the current import to finish.";
-"Esta versión incluye una colección de fondos para pruebas privadas. La procedencia y licencia de sus imágenes deben comprobarse antes de publicarlos. Una operación de archivo no confirma que el tema aparezca o quede seleccionado en PosterBoard." = "This version includes a wallpaper collection for private testing. Image provenance and licensing must be checked before publication. A file operation does not confirm that a wallpaper appears or is selected in PosterBoard.";
+"Los fondos tienen derechos separados del código de Coconut. Una operación de archivo no confirma que el tema aparezca o quede seleccionado en PosterBoard." = "Wallpapers have rights separate from Coconut's code. A file operation does not confirm that a wallpaper appears or is selected in PosterBoard.";
 "Este iPhone" = "This iPhone";
-"Este iPhone no tiene acceso directo y su versión no está habilitada para la ruta DarkSword integrada." = "This iPhone has no direct access and its version is not enabled for the integrated DarkSword route.";
-"Estos rangos describen referencias de Pocket Poster, no pruebas de Coconut. El acceso DarkSword integrado solo permite un intento en iPhone 16 Pro con iOS 18.6.2 (22G100); la aparición y selección del fondo siguen sin verificarse." = "These ranges describe Pocket Poster references, not Coconut tests. Integrated DarkSword allows one attempt on iPhone 16 Pro with iOS 18.6.2 (22G100); wallpaper appearance and selection remain unverified.";
+"Este iPhone no tiene acceso directo y el motor DarkSword no admite su modelo o versión de iOS. Puedes introducir el UUID obtenido con un ordenador." = "This iPhone has no direct access and the DarkSword engine does not support its model or iOS version. You can enter the UUID obtained with a computer.";
+"Estos rangos describen referencias de Pocket Poster, no pruebas de Coconut. DarkSword se intenta en iOS 17.x, 18.0–18.7.1 y 26.0–26.0.1, según el modelo, una vez por sesión. La aparición y selección del fondo siguen sin verificarse." = "These ranges describe Pocket Poster references, not Coconut tests. Depending on the model, DarkSword is attempted on iOS 17.x, 18.0–18.7.1, and 26.0–26.0.1, once per session. Wallpaper appearance and selection remain unverified.";
 "Expandido" = "Expanded";
 "Explorar" = "Explore";
 "Exportar diagnóstico" = "Export diagnostics";
@@ -243,9 +243,7 @@
 "El paquete mezcla varios logicalScreenClass en un mismo descriptor." = "The package mixes several logicalScreenClass values in one descriptor.";
 "Se requiere una acción Aplicar autorizada para este plan exacto." = "An authorized Apply action is required for this exact plan.";
 "Esta versión de iOS está fuera del rango de Pocket Poster para la ruta .Trash." = "This iOS version is outside Pocket Poster’s range for the .Trash route.";
-"La ruta DarkSword integrada está habilitada solo para iOS 18.6.2. Si tienes acceso directo del sistema, vuelve a instalar Coconut desde TrollStore." = "The integrated DarkSword route is enabled only for iOS 18.6.2. For direct system access, reinstall Coconut using TrollStore.";
 "No se pudo identificar el dispositivo." = "Could not identify the device.";
-"La ruta DarkSword integrada está habilitada solo para iPhone 16 Pro." = "The integrated DarkSword route is enabled only for iPhone 16 Pro.";
 "UUID de contenedor o proveedor no permitido." = "Container UUID or provider is not allowed.";
 "Documents/.Trash ya existe. Revisión manual necesaria; no se ha modificado." = "Documents/.Trash already exists. Manual review is required; it has not been changed.";
 "Descriptor de staging no válido." = "Invalid staged descriptor.";
@@ -387,7 +385,7 @@
 "Introduce un UUID de PosterBoard válido. No es el UDID del iPhone." = "Enter a valid PosterBoard UUID. This is not the iPhone UDID.";
 "Espera a que termine la obtención del UUID." = "Wait for UUID discovery to finish.";
 "Obtener UUID automáticamente" = "Find UUID automatically";
-"DarkSword se usa solo para obtener el UUID. Ruta integrada: iPhone 16 Pro con iOS 18.6.2 (22G100). Puede reiniciar el iPhone." = "DarkSword is used only to obtain the UUID. Integrated support: iPhone 16 Pro on iOS 18.6.2 (22G100). Your iPhone may restart.";
+"Coconut primero busca el UUID con el acceso disponible. Si necesita DarkSword, comprueba la compatibilidad del motor antes del intento. Puede reiniciar el iPhone." = "Coconut first looks for the UUID using available access. If DarkSword is needed, it checks engine compatibility before the attempt. Your iPhone may restart.";
 "Puedes introducir el UUID obtenido con un ordenador. Para repetir la obtención automática, cierra Coconut por completo." = "You can enter a UUID obtained with a computer. To retry automatic discovery, fully close Coconut.";
 "Usar un UUID existente" = "Use an existing UUID";
 "Pega el UUID de PosterBoard obtenido con un ordenador o copiado de tu configuración de Pocket Poster. Se guarda solo en Coconut." = "Paste the PosterBoard UUID obtained with a computer or copied from your Pocket Poster settings. It is saved only in Coconut.";

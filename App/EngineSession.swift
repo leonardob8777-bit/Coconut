@@ -22,7 +22,7 @@ final class EngineSession {
     init(isSimulator: Bool = DeviceInfo.isSimulator,
          defaults: UserDefaults = .standard,
          installationSupported: Bool = PosterBoardAccessCoordinator.supportsSavedUUID(),
-         automaticDiscoverySupported: Bool = DeviceInfo.supportsAutomaticUUID,
+         automaticDiscoverySupported: Bool = true,
          prepare: @escaping @Sendable () async throws -> PreparedPosterBoardAccess = { try await PosterBoardAccessCoordinator.prepare() },
          validate: @escaping @Sendable (PreparedPosterBoardAccess) async throws -> Void = { try await PosterBoardAccessCoordinator.validate($0) }) {
         self.isSimulator = isSimulator
@@ -137,7 +137,7 @@ struct EngineAccessCard: View {
                         Label(L.text("Obtener UUID automáticamente"), systemImage: "iphone")
                     }.buttonStyle(SecondaryButtonStyle()).disabled(!engine.canActivate)
                         .accessibilityIdentifier("engine.activate")
-                    Text(L.text("DarkSword se usa solo para obtener el UUID. Ruta integrada: iPhone 16 Pro con iOS 18.6.2 (22G100). Puede reiniciar el iPhone."))
+                    Text(L.text("Coconut primero busca el UUID con el acceso disponible. Si necesita DarkSword, comprueba la compatibilidad del motor antes del intento. Puede reiniciar el iPhone."))
                         .font(.caption).foregroundStyle(.secondary)
                     if engine.state == .failed {
                         Text(L.text("Puedes introducir el UUID obtenido con un ordenador. Para repetir la obtención automática, cierra Coconut por completo."))

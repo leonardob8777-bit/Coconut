@@ -10,15 +10,20 @@
 #include "sbx.h"
 
 int CoconutPrepareAccess(void) {
-    // The native boundary enforces the exact tuple; callers cannot bypass it.
-    // No native call is made at app startup.
+    // Check the engine's supported OS families before offsets_init(), which
+    // exits the process on unsupported versions. No call runs at app startup.
     char model[128] = {0}, build[128] = {0};
     size_t modelSize = sizeof(model), buildSize = sizeof(build);
     NSOperatingSystemVersion os = NSProcessInfo.processInfo.operatingSystemVersion;
     if (sysctlbyname("hw.machine", model, &modelSize, NULL, 0) != 0 ||
         sysctlbyname("kern.osversion", build, &buildSize, NULL, 0) != 0 ||
-        strcmp(model, "iPhone17,1") != 0 || strcmp(build, "22G100") != 0 ||
-        os.majorVersion != 18 || os.minorVersion != 6 || os.patchVersion != 2) return 1;
+        model[0] == '\0' || build[0] == '\0' ||
+        strncmp(model, "iPhone", 6) != 0 || strncmp(model, "iPhone18,", 9) == 0) return 1;
+    bool supportedOS = os.majorVersion == 17 ||
+        (os.majorVersion == 18 &&
+         (os.minorVersion < 7 || (os.minorVersion == 7 && os.patchVersion <= 1))) ||
+        (os.majorVersion == 26 && os.minorVersion == 0 && os.patchVersion <= 1);
+    if (!supportedOS) return 1;
     struct kinfo_proc process = {0};
     int query[] = {CTL_KERN, KERN_PROC, KERN_PROC_PID, getpid()};
     size_t size = sizeof(process);

@@ -19,7 +19,7 @@ import UniformTypeIdentifiers
         let size = try files.reduce(0) { try $0 + ($1.resourceValues(forKeys: [.fileSizeKey]).fileSize ?? 0) }
         XCTAssertLessThan(size, 15_000_000)
         let themes = try JSONDecoder().decode([String: [CatalogTheme]].self, from: Data(contentsOf: url))["themes"] ?? []
-        XCTAssertGreaterThanOrEqual(themes.count, 194, "The existing collection must remain available as new themes are added")
+        XCTAssertGreaterThanOrEqual(themes.count, 76, "The included collection must remain available as new themes are added")
         XCTAssertEqual(Set(themes.map(\.id)).count, themes.count)
         for theme in themes {
             let resolved = try theme.resolvingResources(relativeTo: directory)
@@ -65,7 +65,7 @@ import UniformTypeIdentifiers
         let catalog = CatalogStore { request in
             let data = Data("""
             {"themes":[
-              {"id":"polillas","name":"Broken","packageURL":"https://example.com/new.tendies","sha256":"bad"},
+              {"id":"fr-focus","name":"Broken","packageURL":"https://example.com/new.tendies","sha256":"bad"},
               {"id":"remote-valid","name":"First","packageURL":"https://example.com/new.tendies","sha256":"\(String(repeating: "b", count: 64))"},
               {"id":"remote-valid","name":"Duplicate","packageURL":"https://example.com/new.tendies","sha256":"\(String(repeating: "b", count: 64))"},
               {"id":"bad-media","name":"Bad media","packageURL":"https://example.com/new.tendies","previewURL":"file:///missing","sha256":"\(String(repeating: "b", count: 64))"}
@@ -78,7 +78,7 @@ import UniformTypeIdentifiers
         XCTAssertEqual(themes.filter { $0.id == "remote-valid" }.count, 1)
         XCTAssertEqual(themes.first?.name, "First")
         XCTAssertFalse(themes.contains { $0.id == "bad-media" })
-        XCTAssertTrue(themes.contains { $0.id == "polillas" && $0.name != "Broken" })
+        XCTAssertTrue(themes.contains { $0.id == "fr-focus" && $0.name != "Broken" })
     }
 
     func testNewVideoMetadataUpdatesWithoutChangingPackageHash() async throws {
@@ -103,15 +103,15 @@ import UniformTypeIdentifiers
     func testPublishedRevisionReplacesSeedWithoutDuplicatingWallpaper() async throws {
         let catalog = CatalogStore { request in
             let data = Data("""
-            {"themes":[{"id":"polillas","name":"Moths updated","packageURL":"https://example.com/new.tendies","sha256":"\(String(repeating: "b", count: 64))"}]}
+            {"themes":[{"id":"fr-focus","name":"Focus updated","packageURL":"https://example.com/new.tendies","sha256":"\(String(repeating: "b", count: 64))"}]}
             """.utf8)
             return (data, HTTPURLResponse(url: request.url!, statusCode: 200, httpVersion: nil, headerFields: nil)!)
         }
         await catalog.load()
         guard case .loaded(let themes) = catalog.state else { return XCTFail("Catalog did not load") }
-        let revisions = themes.filter { $0.id == "polillas" }
+        let revisions = themes.filter { $0.id == "fr-focus" }
         XCTAssertEqual(revisions.count, 1)
-        XCTAssertEqual(revisions.first?.name, "Moths updated")
+        XCTAssertEqual(revisions.first?.name, "Focus updated")
         XCTAssertEqual(revisions.first?.packageURL.absoluteString, "https://example.com/new.tendies")
         XCTAssertNil(revisions.first?.artworkURL, "A new revision must not reuse stale bundled artwork")
     }
@@ -128,7 +128,7 @@ import UniformTypeIdentifiers
             await catalog.load()
             guard case .loaded(let themes) = catalog.state else { return XCTFail("A failed refresh must keep the collection") }
             XCTAssertTrue(themes.contains { $0.id == "remote-test" })
-            XCTAssertTrue(themes.contains { $0.id == "polillas" })
+            XCTAssertTrue(themes.contains { $0.id == "fr-focus" })
             XCTAssertEqual(catalog.lastUpdatedAt, updated)
             XCTAssertEqual(catalog.updateState, failure == .cancelled ? previous : .unavailable)
         }
@@ -144,7 +144,7 @@ import UniformTypeIdentifiers
         await catalog.load()
         guard case .loaded(let themes) = catalog.state else { return XCTFail("Collection is missing") }
         XCTAssertEqual(themes.first?.id, "remote-test", "The published catalog order (newest first) must lead")
-        XCTAssertTrue(themes.contains { $0.id == "polillas" }, "Themes only bundled with the app stay available")
+        XCTAssertTrue(themes.contains { $0.id == "fr-focus" }, "Themes only bundled with the app stay available")
     }
 
     func testCatalogRefreshIsSingleFlightAndKeepsThemesWhileChecking() async throws {
@@ -171,7 +171,7 @@ import UniformTypeIdentifiers
         XCTAssertEqual(catalog.updateState, .unavailable)
         XCTAssertNil(catalog.lastUpdatedAt)
         guard case .loaded(let themes) = catalog.state else { return XCTFail("Included wallpapers must work offline") }
-        XCTAssertTrue(themes.contains { $0.id == "polillas" })
+        XCTAssertTrue(themes.contains { $0.id == "fr-focus" })
     }
 
     func testRuntimeMessagesAndTitlesFollowLanguage() {
@@ -186,7 +186,7 @@ import UniformTypeIdentifiers
         XCTAssertEqual(L.text("Polillas"), "Polillas")
     }
 
-    func testImportedCatalogArchiveUsesCleanArtworkAndStableIdentity() async throws {
+    func testImportedExternalArchiveKeepsStableIdentityWithoutInventingCatalogMetadata() async throws {
         let index = try? Data(contentsOf: PackageStorage.indexURL)
         defer {
             if let index { try? index.write(to: PackageStorage.indexURL, options: .atomic) }
@@ -197,8 +197,9 @@ import UniformTypeIdentifiers
         let first = await library.importPackage(at: source)
         let id = try XCTUnwrap(first)
         let imported = try XCTUnwrap(library.packages.first { $0.id == id })
-        XCTAssertEqual(imported.title, "Polillas")
-        XCTAssertEqual(imported.previewURL?.lastPathComponent, "polillas-artwork.jpg")
+        XCTAssertNil(imported.title, "This fixture is no longer included in the bundled catalog")
+        XCTAssertNil(imported.previewURL, "An external import must not borrow another theme's artwork")
+        XCTAssertEqual(imported.displayName, "polillas")
         XCTAssertTrue(FileManager.default.fileExists(atPath: imported.archiveURL.path))
         var external = imported
         external.title = "Cabaña del campo"
@@ -265,6 +266,20 @@ import UniformTypeIdentifiers
         let preparations = await probe.preparations
         XCTAssertEqual(preparations, 0)
         XCTAssertFalse(engine.isReady)
+    }
+
+    func testDefaultDiscoveryAllowsEngineAttemptWithoutInitialDeviceTuple() async {
+        let probe = AccessProbe()
+        let engine = EngineSession(isSimulator: false, defaults: uuidDefaults(),
+                                   installationSupported: true,
+                                   prepare: { await probe.prepare() },
+                                   validate: { try await probe.validate($0) })
+        XCTAssertTrue(engine.canActivate)
+        await engine.activate()
+        XCTAssertTrue(engine.isReady)
+        XCTAssertNotNil(engine.savedUUID)
+        let preparations = await probe.preparations
+        XCTAssertEqual(preparations, 1)
     }
 
     func testDiscoveryIsSingleFlightAndPersistsOnlyUUID() async throws {
@@ -391,13 +406,12 @@ import UniformTypeIdentifiers
             if let index { try? index.write(to: PackageStorage.indexURL, options: .atomic) }
             else { try? FileManager.default.removeItem(at: PackageStorage.indexURL) }
         }
-        let url = try XCTUnwrap(Bundle.main.url(forResource: "catalog", withExtension: "json", subdirectory: "BundledCatalog"))
-        let themes = try JSONDecoder().decode([String: [CatalogTheme]].self, from: Data(contentsOf: url))["themes"] ?? []
-        let resolved = try XCTUnwrap(themes.first { $0.id == "polillas" }).resolvingResources(relativeTo: url.deletingLastPathComponent())
         let fixture = try XCTUnwrap(Bundle(for: Self.self).url(forResource: "polillas", withExtension: "tendies"))
-        let theme = CatalogTheme(id: resolved.id, name: resolved.name, author: resolved.author,
-                                 previewURL: resolved.previewURL, previewVideoURL: resolved.previewVideoURL,
-                                 packageURL: fixture, sha256: resolved.sha256)
+        let staged = try PackageInspector().stage(fixture)
+        defer { try? FileManager.default.removeItem(at: staged.directory) }
+        let theme = CatalogTheme(id: "local-retry-fixture", name: "Retry fixture", author: nil,
+                                 previewURL: nil, previewVideoURL: nil,
+                                 packageURL: fixture, sha256: staged.inspection.sha256)
         let corruptDigest = CatalogTheme(id: theme.id, name: theme.name, author: theme.author,
                                          previewURL: theme.previewURL, previewVideoURL: theme.previewVideoURL,
                                          packageURL: theme.packageURL, sha256: String(repeating: "0", count: 64))
@@ -564,7 +578,7 @@ import UniformTypeIdentifiers
     }
 
     func testArtworkDecodesAtBoundedSizeAndReusesCache() async throws {
-        let source = try XCTUnwrap(Bundle.main.url(forResource: "polillas-artwork", withExtension: "jpg", subdirectory: "BundledCatalog"))
+        let source = try XCTUnwrap(Bundle.main.url(forResource: "fr-focus-artwork", withExtension: "jpg", subdirectory: "BundledCatalog"))
         let repository = ArtworkRepository()
         let first = try await repository.image(at: source)
         XCTAssertGreaterThan(first.height, 0)
@@ -575,7 +589,7 @@ import UniformTypeIdentifiers
     }
 
     func testArtworkFailureDoesNotPoisonRetry() async throws {
-        let source = try XCTUnwrap(Bundle.main.url(forResource: "polillas-artwork", withExtension: "jpg", subdirectory: "BundledCatalog"))
+        let source = try XCTUnwrap(Bundle.main.url(forResource: "fr-focus-artwork", withExtension: "jpg", subdirectory: "BundledCatalog"))
         let file = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString + ".jpg")
         defer { try? FileManager.default.removeItem(at: file) }
         let repository = ArtworkRepository()

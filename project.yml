@@ -46,8 +46,8 @@ targets:
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
         INFOPLIST_FILE: App/Info.plist
         TARGETED_DEVICE_FAMILY: "1"
-        MARKETING_VERSION: "0.6.23"
-        CURRENT_PROJECT_VERSION: "33"
+        MARKETING_VERSION: "0.6.24"
+        CURRENT_PROJECT_VERSION: "34"
     dependencies:
       - package: WallpaperLab
         product: WallpaperPackageManager

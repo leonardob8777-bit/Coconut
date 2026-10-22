@@ -26,7 +26,7 @@ struct CompatibilityView: View {
                     }
                     .clipShape(RoundedRectangle(cornerRadius: Theme.cardRadius, style: .continuous))
                     .card(padding: 0)
-                    Text(L.text("Estos rangos describen referencias de Pocket Poster, no pruebas de Coconut. El acceso DarkSword integrado solo permite un intento en iPhone 16 Pro con iOS 18.6.2 (22G100); la aparición y selección del fondo siguen sin verificarse."))
+                    Text(L.text("Estos rangos describen referencias de Pocket Poster, no pruebas de Coconut. DarkSword se intenta en iOS 17.x, 18.0–18.7.1 y 26.0–26.0.1, según el modelo, una vez por sesión. La aparición y selección del fondo siguen sin verificarse."))
                         .font(.footnote)
                         .foregroundStyle(.secondary)
                         .padding(.horizontal, 4)
@@ -114,8 +114,6 @@ struct CompatibilityView: View {
                 FactRow(label: L.text("Probado con Coconut"),
                         value: assessment?.installationVerifiedByCoconut == true ? L.text("Sí") : L.text("Todavía no"))
                 FactRow(label: L.text("Lienzo del iPhone"), value: DeviceInfo.logicalScreenClass ?? L.text("No disponible"))
-                FactRow(label: L.text("Primera prueba"),
-                        value: assessment?.matchesInitialExperimentalTarget == true ? L.text("Este iPhone") : "iPhone 16 Pro · 18.6.2")
                 if DeviceInfo.isSimulator {
                     FactRow(label: L.text("Entorno"), value: L.text("Simulador"))
                 }

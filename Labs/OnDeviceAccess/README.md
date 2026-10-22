@@ -2,7 +2,7 @@
 
 PoC separada para localizar y leer el contenedor de PosterBoard en el iPhone, sin UUID suministrado desde Mac. **No instala wallpapers. No validada aún en hardware.**
 
-Objetivo habilitado: iPhone 16 Pro (`iPhone17,1`), iOS 18.6.2 (`22G100`). No se ejecuta automáticamente ni con un depurador conectado. El motor puede ocasionar un reinicio; abrir la app no lo ejecuta.
+Actualización 22-10-2026: se retiró el límite fijo a iPhone 16 Pro (`iPhone17,1`), iOS 18.6.2 (`22G100`). El puente comprueba el rango propio del motor (iOS 17.x, 18.0–18.7.1 y 26.0–26.0.1; excluye iPhone18 con MIE). No se ejecuta automáticamente ni con un depurador conectado. Solo permite un intento por proceso. El motor puede ocasionar un reinicio; abrir la app no lo ejecuta. La ampliación no equivale a validación física en otros modelos.
 
 ## Construcción
 

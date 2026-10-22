@@ -9,9 +9,9 @@ struct AboutView: View {
         NavigationStack {
             List {
                 Section {
-                    Text(L.text("Coconut · AGPL-3.0 por la integración de Eagle/Lara. El inspector propio y el escritor adaptado de Pocket Poster conservan GPL-3.0; ZIPFoundation se distribuye bajo MIT. La ruta de PosterBoard es experimental y está limitada al iPhone 16 Pro con iOS 18.6.2."))
+                    Text(L.text("Coconut · AGPL-3.0 por la integración de Eagle/Lara. El inspector propio y el escritor adaptado de Pocket Poster conservan GPL-3.0; ZIPFoundation se distribuye bajo MIT. La ruta de PosterBoard es experimental y depende de la compatibilidad del motor y de iOS."))
                         .font(.footnote)
-                    Text(L.text("Esta versión incluye una colección de fondos para pruebas privadas. La procedencia y licencia de sus imágenes deben comprobarse antes de publicarlos. Una operación de archivo no confirma que el tema aparezca o quede seleccionado en PosterBoard."))
+                    Text(L.text("Los fondos tienen derechos separados del código de Coconut. Una operación de archivo no confirma que el tema aparezca o quede seleccionado en PosterBoard."))
                         .font(.footnote)
                         .foregroundStyle(.secondary)
                 }
