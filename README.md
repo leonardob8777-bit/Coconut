@@ -8,10 +8,10 @@
 
 Animated wallpapers for iPhone · Created by [Leonardo](https://github.com/leonardob8777-bit)
 
-<a href="https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/v0.6.23/Coconut-0.6.23-33.ipa"><img src="docs/brand/download.svg" alt="Download IPA — v0.6.23 · 4.17 MB" width="244"></a><br>
+<a href="https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/v0.6.23/Coconut-0.6.23-33.ipa"><img src="docs/brand/download.svg?v=counts-2026-10-22T0650130729100000" alt="Download IPA — 4.17 MB · 1 downloads" width="244"></a><br>
 <a href="https://github.com/leonardob8777-bit/Coconut-Catalog/releases/tag/v0.6.23"><img src="docs/brand/notes.svg" alt="What’s new" width="120"></a>
 <a href="https://github.com/leonardob8777-bit/Coconut-Catalog/releases/download/v0.6.23/Coconut-0.6.23-source.zip"><img src="docs/brand/source.svg" alt="Source code" width="120"></a><br>
-<a href="https://github.com/leonardob8777-bit/Coconut-Catalog/stargazers"><img src="docs/brand/star.svg" alt="Star — GitHub star count" width="120"></a>
+<a href="https://github.com/leonardob8777-bit/Coconut-Catalog/stargazers"><img src="docs/brand/star.svg?v=counts-2026-10-22T0650130729100000" alt="Stars 1" width="120"></a>
 <a href="https://github.com/leonardob8777-bit/Coconut-Catalog/releases"><img src="docs/brand/releases.svg" alt="All releases" width="120"></a><br>
 <a href="https://github.com/leonardob8777-bit/Coconut-Catalog/issues/new?template=bug_report.yml"><img src="docs/brand/bug.svg" alt="Report bug" width="120"></a>
 <a href="https://github.com/leonardob8777-bit/Coconut-Catalog/issues/new?template=feature_request.yml"><img src="docs/brand/idea.svg" alt="Suggest idea" width="120"></a><br>
