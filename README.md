@@ -70,14 +70,7 @@ This release does not expand engine compatibility. The exact public IPA was down
 
 </details>
 
-<details>
-<summary><strong>Español</strong></summary>
 
-Coconut es una app de fondos animados para iPhone creada por **Leonardo**. Explora los 76 temas actuales, mira sus vídeos, guarda favoritos y aplica con el UUID de PosterBoard que hayas configurado.
-
-Descarga la IPA desde el botón superior y fírmala con tu método habitual. La versión actual es **0.6.23 (33)**, pesa **4,17 MB** y se publica como versión de prueba. Puedes elegir español en Ajustes. Consulta los límites de compatibilidad y las notas antes de instalar.
-
-</details>
 
 ## Catalog & credits
 
