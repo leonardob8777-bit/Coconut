@@ -15,7 +15,7 @@ Automatic PosterBoard UUID discovery follows the integrated engine's supported r
 <a href="https://github.com/leonardob8777-bit/Coconut/releases/download/v0.6.24/Coconut-0.6.24-34-unsigned.ipa"><img src="docs/brand/download.svg" alt="Download Coconut IPA" width="244"></a><br>
 <a href="https://github.com/leonardob8777-bit/Coconut/releases/tag/v0.6.24"><img src="docs/brand/notes.svg" alt="What’s new" width="120"></a>
 <a href="https://github.com/leonardob8777-bit/Coconut/releases/download/v0.6.24/Coconut-0.6.24-source.zip"><img src="docs/brand/source.svg" alt="Source code" width="120"></a><br>
-<a href="https://github.com/leonardob8777-bit/Coconut/stargazers"><img src="docs/brand/star.svg?v=counts-2026-10-22T0650130729100000" alt="Stars 1" width="120"></a>
+<a href="https://github.com/leonardob8777-bit/Coconut/stargazers"><img src="docs/brand/star.svg?v=counts-2026-10-22T165416Z" alt="Stars 2" width="120"></a>
 <a href="https://github.com/leonardob8777-bit/Coconut/releases"><img src="docs/brand/releases.svg" alt="All releases" width="120"></a><br>
 <a href="https://github.com/leonardob8777-bit/Coconut/issues/new?template=bug_report.yml"><img src="docs/brand/bug.svg" alt="Report bug" width="120"></a>
 <a href="https://github.com/leonardob8777-bit/Coconut/issues/new?template=feature_request.yml"><img src="docs/brand/idea.svg" alt="Suggest idea" width="120"></a><br>
