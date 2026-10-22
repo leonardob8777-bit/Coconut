@@ -12,7 +12,7 @@ Animated wallpapers for iPhone · Created by [Leonardo](https://github.com/leona
 
 Automatic UUID only on iPhone 16 Pro (iOS 18.6.2). Other devices: enter the UUID manually or use TrollStore.
 
-<a href="https://github.com/leonardob8777-bit/Coconut/releases/download/v0.6.23/Coconut-0.6.23-33.ipa"><img src="docs/brand/download.svg?v=counts-2026-10-22T0650130729100000" alt="Download IPA — 4.17 MB · 1 downloads" width="244"></a><br>
+<a href="https://github.com/leonardob8777-bit/Coconut/releases/download/v0.6.23/Coconut-0.6.23-33-unsigned.ipa"><img src="docs/brand/download.svg?v=counts-2026-10-22T0650130729100000" alt="Download IPA — 4.12 MB · 1 downloads" width="244"></a><br>
 <a href="https://github.com/leonardob8777-bit/Coconut/releases/tag/v0.6.23"><img src="docs/brand/notes.svg" alt="What’s new" width="120"></a>
 <a href="https://github.com/leonardob8777-bit/Coconut/releases/download/v0.6.23/Coconut-0.6.23-source.zip"><img src="docs/brand/source.svg" alt="Source code" width="120"></a><br>
 <a href="https://github.com/leonardob8777-bit/Coconut/stargazers"><img src="docs/brand/star.svg?v=counts-2026-10-22T0650130729100000" alt="Stars 1" width="120"></a>
@@ -36,7 +36,7 @@ Explore the collection, watch a moving preview inside an iPhone frame, and keep 
 
 ## A lighter, smoother Coconut
 
-**0.6.23 · build 33 · 4.17 MB · preview release**
+**0.6.23 · build 33 · 4.12 MB · preview release**
 
 - MP4 playback with local caching and preloading of the next showcase video.
 - A refined scrolling header with a fixed iPhone preview, softer blur and a pinned collection title.
@@ -48,12 +48,12 @@ Explore the collection, watch a moving preview inside an iPhone frame, and keep 
 
 ## Install
 
-1. **[Download Coconut.ipa](https://github.com/leonardob8777-bit/Coconut/releases/download/v0.6.23/Coconut-0.6.23-33.ipa).**
+1. **[Download Coconut.ipa](https://github.com/leonardob8777-bit/Coconut/releases/download/v0.6.23/Coconut-0.6.23-33-unsigned.ipa).**
 2. Sign and install it using your preferred sideloading method.
 3. Open Coconut and configure your PosterBoard UUID in Settings, if needed.
 4. Pick a theme, watch its preview and tap **Apply**.
 
-The supplied development signature is limited to one registered device and expires **October 24, 2026 at 01:06 UTC**. Other devices need their own compatible signing method. Coconut is not distributed through the App Store.
+The main download is **unsigned**: it contains no personal provisioning profile or registered-device list. Sign it for your own device using a compatible sideloading method. Your signing method determines its validity period. Device and iOS compatibility still apply. Coconut is not distributed through the App Store.
 
 <details>
 <summary><strong>Compatibility and verification</strong></summary>
