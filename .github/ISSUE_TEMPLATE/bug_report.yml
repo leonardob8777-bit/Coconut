@@ -1,0 +1,24 @@
+name: Report a problem
+description: Help improve Coconut with a clear, reproducible report.
+title: "[Bug] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Coconut version
+      placeholder: 0.6.23 (33)
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: iPhone model and iOS version
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include the theme name, steps, expected result and exact error. Attach a screenshot if useful. Remove personal data from diagnostics.
+    validations:
+      required: true

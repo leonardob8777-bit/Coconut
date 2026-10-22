@@ -1,0 +1,11 @@
+name: Suggest an idea
+description: Share an improvement for Coconut.
+title: "[Idea] "
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to improve?
+      description: Describe the experience you want and how it would help.
+    validations:
+      required: true
