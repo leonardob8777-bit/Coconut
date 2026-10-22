@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/brand/coconut-icon.png" alt="Coconut app logo" width="112" height="112">
+
 # Coconut
 
 **A different view, every day.**
