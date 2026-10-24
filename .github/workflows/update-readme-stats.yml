@@ -1,0 +1,35 @@
+name: Update README stats
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-readme-stats.yml'
+      - 'scripts/update-readme-badges.py'
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: readme-stats
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Refresh counters
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/update-readme-badges.py
+      - name: Commit updated snapshots
+        run: |
+          git add README.md docs/brand/download.svg docs/brand/star.svg docs/badges
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'docs: refresh download and star counts'
+          git push
